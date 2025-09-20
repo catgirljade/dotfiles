@@ -36,15 +36,15 @@
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/monumenta-plugins">
           <value>
-            <RecentProjectMetaInfo frameTitle="monumenta-plugins – ~/.config/JetBrains/IdeaIC2025.2/idea64.vmoptions" opened="true" projectWorkspaceId="318KkR7MrhzYI6CxyB2QnToNcsS">
-              <option name="activationTimestamp" value="1758342307998" />
+            <RecentProjectMetaInfo frameTitle="monumenta-plugins [~/IdeaProjects/monumenta-plugins] – /home/jade/IdeaProjects/monumenta-plugins/plugins/paper/src/main/java/com/playmonumenta/plugins/bosses/spells/aurora/SpellPulsarRadiation.java" opened="true" projectWorkspaceId="318KkR7MrhzYI6CxyB2QnToNcsS">
+              <option name="activationTimestamp" value="1758349402888" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="IC-252.25557.131" />
               <option name="buildTimestamp" value="1756326060000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="7" />
               </option>
-              <frame x="10" y="56" width="2540" height="1534" extendedState="6" />
+              <frame x="10" y="56" width="2540" height="1534" />
               <option name="productionCode" value="IC" />
               <option name="projectOpenTimestamp" value="1758285275675" />
             </RecentProjectMetaInfo>
