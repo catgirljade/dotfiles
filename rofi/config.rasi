@@ -1,0 +1,30 @@
+configuration {
+	modes: [drun, window, run];
+	drun {
+		display-name: "";
+	}
+	dmenu {
+		display-name: "󰍜";
+	}
+	run {
+		display-name: "";
+	}
+	window {
+		display-name: "";
+	}
+	recursivebrowser {
+		display-name: "";
+	}
+	clipboard {
+		display-name: "";
+	}
+
+	timeout {
+		delay: 10;
+		action: "kb-cancel";
+	}	
+}
+
+// @theme "/home/jade/.config/rofi/themes/nord.rasi"
+@theme "/home/jade/.config/rofi/theme.rasi"
+

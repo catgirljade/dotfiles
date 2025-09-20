@@ -1,0 +1,122 @@
+/* ROFI VERTICAL THEME USING THE NORD COLOR PALETTE */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
+* {
+	font: "JetBrainsMono Nerd Font SemiBold 10";
+    nord0:     #323848;
+    nord1:     #3b455a;
+    nord2:     #434f68;
+    nord3:     #4c5a6a;
+
+    nord4:     #d8dee9;
+    nord5:     #e5e9f0;
+    nord6:     #eceff4;
+
+    nord7:     #8fbcbb;
+    nord8:     #88c0d0;
+    nord9:     #8193c1;
+    nord10:    #5e81ac;
+    nord11:    #bf616a;
+
+    nord12:    #d08770;
+    nord13:    #ebcb8b;
+    nord14:    #a3be8c;
+    nord15:    #b48ead;
+
+    background-color:   transparent;
+    text-color:         @nord4;
+    accent-color:       @nord9;
+
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+	transparency: "real";
+    background: transparent;
+
+    location: center;
+	width:      760px;
+}
+
+mainbox {
+	children: [inputbar, container];
+}
+
+inputbar {
+    padding:    8px 12px;
+    spacing:    12px;
+	border-radius    : 6px;
+	background-color : @nord2;
+    children:   [ prompt, entry ];
+}
+
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
+}
+
+prompt {
+	font: "JetBrainsMono Nerd Font SemiBold 16";
+    text-color: @nord4;
+	padding: 0 8px 0 0;
+}
+
+container {
+	padding: 0 32px;
+	children: [listview];
+}
+
+listview {
+	background-color: @nord0;
+	// border: 0 3px 3px 3px solid;
+	// border-color: @nord2;
+	border-radius: 0 0 8px 8px;
+    lines:      16;
+    columns:    1;
+	dynamic:    true;
+}
+
+element {
+    padding:    4px;
+    spacing:    8px;
+	children: [element-icon, element-text];
+}
+
+element normal urgent {
+    text-color: @nord13;
+}
+
+element normal active {
+    text-color: @accent-color;
+}
+
+element alternate active {
+    text-color: @accent-color;
+}
+
+element selected {
+    // text-color: @nord0;
+}
+
+element selected normal {
+    background-color:   @nord1;
+}
+
+element selected urgent {
+    background-color:   @nord13;
+}
+
+element selected active {
+    background-color:   @nord1;
+}
+
+element-icon {
+	padding: 4px;
+	size: 32px;
+}
+
+element-text {
+	font: "JetBrains Mono Bold 10";
+    text-color: inherit;
+}

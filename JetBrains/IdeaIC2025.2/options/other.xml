@@ -1,0 +1,67 @@
+<application>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Inter" />
+    <option name="fontSize" value="13.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "ColorChooser.RecentColors": "67-79-104-255,,,50-56-72-255,,,40-44-52-255,,,0-68-206-255,,,51-58-66-255,,,216-222-233-255,,,250-241-223-255",
+    "InstalledPluginsSearchHistory": "accent\ngith\ngit",
+    "KEYMAP": "format\nclose\nmethod\nmove line\nwordaa",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IC-252.25557.131",
+    "MarketplacePluginsSearchHistory": "theme\nnord\naccent",
+    "NextRunPlatformUpdateBuild": "IC-252.26199.169",
+    "NextRunPlatformUpdateSelfBuild": "IC-252.25557.131",
+    "NextRunPlatformUpdateVersion": "2025.2.2",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "SettingsSearchHistory": "parameter\nbutton\naccent\nsuggestion\nimport",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "build.toolwindow.run.selection.state": "com.intellij.build.BuildTreeConsoleView",
+    "enter_selection_count": "5",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.25557.131",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.NewFeaturesWidget": "1",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "idea.islands.enabled": "true",
+    "input.method.disabler.muted": "true",
+    "installed.kotlin.plugin.version": "252.25557.131-IJ",
+    "last_opened_file_path": "/home/jade/IdeaProjects/rogule",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "mt.NUMBER_OF_LAUNCHES": "4",
+    "previousColorScheme": "Atom One Dark copy",
+    "registry.to.advanced.settings.migration.build": "IC-252.25557.131",
+    "selected.color.option.type": "INLINE_PARAMETER_HINT_CURRENT",
+    "settings.code.style.selected.tab.JAVA": "Imports",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/jade/IdeaProjects/rogule",
+      "/home/jade/IdeaProjects/monumenta-mixins",
+      "/home/jade/Atom_One_Dark.icls",
+      "/home/jade/IdeaProjects/monumenta-plugins"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector",
+      "com.demonwav.mcdev.nbt.filetype.NbtFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

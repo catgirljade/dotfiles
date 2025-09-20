@@ -1,0 +1,18 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="JAVA" value="true" />
+        <entry key="kotlin" value="true" />
+      </map>
+    </option>
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
+    <option name="USE_EDITOR_FONT_IN_INLAYS" value="true" />
+    <option name="IS_FULL_LINE_HEIGHT_CURSOR" value="true" />
+  </component>
+</application>

@@ -1,0 +1,74 @@
+# "$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+#
+[mgr]
+prepend_keymap = [
+	{ on = "<Enter>", run = "plugin smart-enter" },
+	{ on = "!", for = "unix", run = 'shell "$SHELL" --block', desc = "Open $SHELL here" },
+	{ on = "m", run = "plugin bookmarks save", desc = "Save current position as a bookmark" },
+	{ on = "'", run = "plugin bookmarks jump", desc = "Jump to a bookmark" },
+	{ on = [
+		"b",
+		"d",
+	], run = "plugin bookmarks delete", desc = "Delete a bookmark" },
+	{ on = [
+		"b",
+		"D",
+	], run = "plugin bookmarks delete_all", desc = "Delete all bookmarks" },
+	{ on = [
+		"c",
+		"m",
+	], run = "plugin chmod", desc = "Chmod on selected files" },
+	{ on = [
+		"c",
+		"r",
+	], run = 'shell -- dragon -x -i -T "$1"', desc = "Drag and Drop" },
+
+	{ on = [
+		"M",
+		"s",
+	], run = "plugin mount", desc = "Mount local drives" },
+	# SSH
+	{ on = [
+		"M",
+		"m",
+	], run = "plugin sshfs -- mount --jump", desc = "Mount & jump" },
+	{ on = [
+		"M",
+		"u",
+	], run = "plugin sshfs -- unmount", desc = "Unmount SSHFS" },
+	{ on = [
+		"M",
+		"a",
+	], run = "plugin sshfs -- add", desc = "Add SSH host" },
+	{ on = [
+		"M",
+		"r",
+	], run = "plugin sshfs -- remove", desc = "Remove SSH host" },
+	{ on = [
+		"M",
+		"h",
+	], run = "plugin sshfs -- home", desc = "Go to mount home" },
+	{ on = [
+		"M",
+		"c",
+	], run = "plugin sshfs -- menu", desc = "Open sshfs menu" },
+	{ on = [
+		"g",
+		"m",
+	], run = "plugin sshfs -- jump", desc = "Jump to mount" },
+	{ on = [
+		"u",
+		"u",
+	], run = "plugin restore", desc = "Restore last deleted files/folders" },
+	# This will throw error when there is existed file/folder
+	{ on = "U", run = "plugin restore -- --interactive", desc = "Restore deleted files/folders (Interactive)" },
+	# Or auto overwrite existed file/folder
+	{ on = [
+		"u",
+		"U",
+	], run = "plugin restore -- --interactive --interactive-overwrite", desc = "Restore deleted files/folders (Interactive overwrite)" },
+	{ on = [
+		"g",
+		"i",
+	], run = "plugin lazygit", desc = "Open lazygit" },
+]
