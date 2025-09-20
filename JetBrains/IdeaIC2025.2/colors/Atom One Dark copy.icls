@@ -37,7 +37,7 @@
     <option name="FILESTATUS_changelistConflict" value="F65F87" />
     <option name="FILESTATUS_modifiedOutside" value="56B6C2" />
     <option name="GUTTER_BACKGROUND" value="282C34" />
-    <option name="INDENT_GUIDE" value="2C313C" />
+    <option name="INDENT_GUIDE" value="434F68" />
     <option name="INFORMATION_HINT" value="333A42" />
     <option name="LINE_NUMBERS_COLOR" value="495162" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="C1C0C0" />
@@ -51,7 +51,7 @@
     <option name="QUESTION_HINT" value="333A42" />
     <option name="RECENT_LOCATIONS_SELECTION" value="21252B" />
     <option name="RIGHT_MARGIN_COLOR" value="333A42" />
-    <option name="SELECTED_INDENT_GUIDE" value="56B6C2" />
+    <option name="SELECTED_INDENT_GUIDE" value="818EA9" />
     <option name="SELECTED_TEARLINE_COLOR" value="E6E6E6" />
     <option name="SELECTION_BACKGROUND" value="404859" />
     <option name="SEPARATOR_ABOVE_COLOR" value="2C313C" />
@@ -83,7 +83,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="39ADB5" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="F59762" />
     <option name="VISUAL_INDENT_GUIDE" value="333A42" />
-    <option name="WHITESPACES" value="59575A" />
+    <option name="WHITESPACES" value="FFFFFF" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="404859" />
   </colors>
   <attributes>
@@ -3119,7 +3119,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="abb2bf" />
+        <option name="FOREGROUND" value="57595b" />
         <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
@@ -3130,7 +3130,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="9c9c9c" />
+        <option name="FOREGROUND" value="807e81" />
       </value>
     </option>
     <option name="TS.MODULE_NAME">

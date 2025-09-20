@@ -4,6 +4,7 @@ Git4Idea|Version Controls
 HtmlTools|HTML and XML
 JUnit|Test Tools
 PerforceDirectPlugin|Version Controls
+Subversion|Version Controls
 TestNG-J|Test Tools
 com.android.tools.gradle.dcl|null
 com.intellij.completion.ml.ranking|Local AI/ML Tools
@@ -21,10 +22,12 @@ com.intellij.marketplace.ml|Local AI/ML Tools
 com.intellij.marketplace|null
 com.intellij.mcpServer|AI-Powered
 com.intellij.modules.json|Languages
+com.intellij.notebooks.core|null
 com.intellij.platform.images|null
 com.intellij.plugins.eclipsekeymap|Keymap
 com.intellij.plugins.netbeanskeymap|Keymap
 com.intellij.plugins.visualstudiokeymap|Keymap
+com.intellij.properties|Languages
 com.intellij.searcheverywhere.ml|Local AI/ML Tools
 com.intellij.settingsSync|IDE Settings
 com.intellij.tasks|Other Tools
@@ -39,6 +42,7 @@ com.jetbrains.station|Remote Development
 hg4idea|Version Controls
 intellij.git.commit.modal|Version Controls
 intellij.indexing.shared.core|null
+intellij.jupyter|null
 intellij.platform.ijent.impl|Remote Development
 intellij.webp|null
 org.editorconfig.editorconfigjetbrains|IDE Settings
@@ -62,5 +66,7 @@ org.jetbrains.plugins.kotlin.jupyter|null
 org.jetbrains.plugins.terminal|Other Tools
 org.jetbrains.plugins.textmate|Languages
 org.jetbrains.plugins.yaml|Languages
+org.jetbrains.security.package-checker|null
+org.toml.lang|Languages
 tanvd.grazi|null
 training|null

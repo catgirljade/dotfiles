@@ -13,7 +13,6 @@
         <entry key="kotlin" value="true" />
       </map>
     </option>
-    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="USE_EDITOR_FONT_IN_INLAYS" value="true" />
     <option name="IS_FULL_LINE_HEIGHT_CURSOR" value="true" />

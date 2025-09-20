@@ -1,10 +1,16 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$SelectAll">
-      <i c="21" l="1758348468149" />
+      <i c="22" l="1758351319979" />
     </e>
     <e n="$Undo">
-      <i c="55" l="1758349087942" />
+      <i c="61" l="1758351150017" />
+    </e>
+    <e n="AtomFileIcons.Actions">
+      <i c="1" l="1758351348984" />
+    </e>
+    <e n="AtomFileIcons.OldToolbar">
+      <i c="1" l="1758351399775" />
     </e>
     <e n="Back">
       <i c="39" l="1758348460782" />
@@ -15,11 +21,17 @@
     <e n="CloseProject">
       <i c="2" l="1758285263442" />
     </e>
+    <e n="CustomLineHeightAction">
+      <i c="1" l="1758351392569" />
+    </e>
+    <e n="CustomizeMainToolbarAction">
+      <i c="2" l="1758351331524" />
+    </e>
     <e n="EditCustomVmOptions">
       <i c="2" l="1758336427877" />
     </e>
     <e n="EditorBackSpace">
-      <i c="168" l="1758348470714" />
+      <i c="178" l="1758351320265" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="57" l="1758348453685" />
@@ -28,25 +40,25 @@
       <i c="1" l="1758342187226" />
     </e>
     <e n="EditorCopy">
-      <i c="14" l="1758344970336" />
+      <i c="15" l="1758351609762" />
     </e>
     <e n="EditorCut">
       <i c="9" l="1758345001095" />
     </e>
     <e n="EditorDeleteToWordStart">
-      <i c="79" l="1758348004966" />
+      <i c="87" l="1758351253215" />
     </e>
     <e n="EditorDown">
       <i c="113" l="1758348453486" />
     </e>
     <e n="EditorDuplicate">
-      <i c="1" l="1758292070944" />
+      <i c="2" l="1758351065792" />
     </e>
     <e n="EditorEnter">
       <i c="57" l="1758348454280" />
     </e>
     <e n="EditorEscape">
-      <i c="32" l="1758349086610" />
+      <i c="35" l="1758351595690" />
     </e>
     <e n="EditorLeft">
       <i c="95" l="1758348442640" />
@@ -64,7 +76,7 @@
       <i c="1" l="1758344140602" />
     </e>
     <e n="EditorPaste">
-      <i c="25" l="1758344973656" />
+      <i c="29" l="1758351649922" />
     </e>
     <e n="EditorPreviousWord">
       <i c="59" l="1758348005934" />
@@ -74,6 +86,9 @@
     </e>
     <e n="EditorScrollDown">
       <i c="1" l="1758336526212" />
+    </e>
+    <e n="EditorScrollToCenter">
+      <i c="3" l="1758351215655" />
     </e>
     <e n="EditorSelectWord">
       <i c="13" l="1758344456581" />
@@ -89,6 +104,24 @@
     </e>
     <e n="EditorUpWithSelection">
       <i c="2" l="1758342149889" />
+    </e>
+    <e n="EnableDirectoryIconsAction">
+      <i c="2" l="1758351360927" />
+    </e>
+    <e n="EnableFileIconsAction">
+      <i c="6" l="1758351358346" />
+    </e>
+    <e n="EnableMonochromeIconsAction">
+      <i c="4" l="1758351376233" />
+    </e>
+    <e n="EnablePsiIconsAction">
+      <i c="4" l="1758351368831" />
+    </e>
+    <e n="EnableSaturationIconsAction">
+      <i c="1" l="1758351377165" />
+    </e>
+    <e n="EnableUIIconsAction">
+      <i c="2" l="1758351363823" />
     </e>
     <e n="Exit">
       <i c="1" l="1758285241764" />
@@ -118,7 +151,7 @@
       <i c="2" l="1758348960741" />
     </e>
     <e n="GotoClass">
-      <i c="25" l="1758348426984" />
+      <i c="44" l="1758351221702" />
     </e>
     <e n="GotoDeclaration">
       <i c="26" l="1758342211237" />
@@ -129,14 +162,29 @@
     <e n="HideAllWindows">
       <i c="1" l="1758284222746" />
     </e>
+    <e n="HideFileIcons">
+      <i c="2" l="1758351382305" />
+    </e>
+    <e n="ImplementMethods">
+      <i c="1" l="1758351086138" />
+    </e>
     <e n="IntroduceVariable">
       <i c="2" l="1758348443425" />
+    </e>
+    <e n="MTDarculaArrows">
+      <i c="1" l="1758351386080" />
+    </e>
+    <e n="MTMaterialArrows">
+      <i c="1" l="1758351389500" />
     </e>
     <e n="MethodDown">
       <i c="4" l="1758342161974" />
     </e>
     <e n="MethodUp">
       <i c="16" l="1758342161448" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1758351312580" />
     </e>
     <e n="MoveLineDown">
       <i c="2" l="1758344974905" />
@@ -166,13 +214,16 @@
       <i c="2" l="1758342423660" />
     </e>
     <e n="SaveAll">
-      <i c="5" l="1758347945794" />
+      <i c="8" l="1758351071712" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="9" l="1758351329531" />
     </e>
     <e n="ShowIntentionActions">
       <i c="14" l="1758348455466" />
     </e>
     <e n="ShowSettings">
-      <i c="42" l="1758349077817" />
+      <i c="55" l="1758351627872" />
     </e>
     <e n="ShowUsages">
       <i c="2" l="1758336806498" />
@@ -220,7 +271,7 @@
       <i c="4" l="1758348001020" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="13" l="1758347746222" />
+      <i c="15" l="1758351072585" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="9" l="1758337220375" />
@@ -235,19 +286,22 @@
       <i c="10" l="1758337219246" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="36" l="1758348429140" />
+      <i c="62" l="1758351650317" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="6" l="1758345316096" />
+      <i c="8" l="1758351074011" />
     </e>
     <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
-      <i c="6" l="1758349079008" />
+      <i c="7" l="1758350911081" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$2">
+      <i c="1" l="1758350972372" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
-      <i c="19" l="1758348955642" />
+      <i c="22" l="1758351404979" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="53" l="1758349075896" />
+      <i c="67" l="1758351627264" />
     </e>
     <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
       <i c="113" l="1758348937249" />

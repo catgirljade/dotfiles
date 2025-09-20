@@ -9,7 +9,8 @@
       "event_id" : [ "{enum#__event_id}" ],
       "event_data" : {
         "code" : [ "{regexp#integer}" ],
-        "error" : [ "{util#class_name}", "{enum:EMPTY_CONTENT|INVALID_JSON|UNKNOWN}", "{enum:EMPTY_SERVICE_URL|UNREACHABLE_SERVICE|EMPTY_RESPONSE_BODY|ERROR_ON_LOAD}", "{enum:SEND|NOT_PERMITTED_SERVER|NOT_PERMITTED_USER|ERROR_IN_CONFIG|NOT_PERMITTED_TIMEOUT|NOTHING_TO_SEND|SENT_WITH_ERRORS|EXCEPTION_OCCURRED|NO_ARGUMENTS|NO_APPLICATION_CONFIG|IDE_NOT_CLOSING|ERROR_ON_SEND|NO_DEVICE_ID|NO_MACHINE_ID|INVALID_BUCKET|INVALID_REVISION|NO_LOG_FILES}", "{enum:NO_LOGS|NO_UPLOADER|NO_LIBRARIES|NO_TEMP_FOLDER}" ],
+        "dictionary_last_modified" : [ "{regexp#integer}" ],
+        "error" : [ "{util#class_name}", "{enum:SEND|NOT_PERMITTED_SERVER|NOT_PERMITTED_USER|ERROR_IN_CONFIG|NOT_PERMITTED_TIMEOUT|NOTHING_TO_SEND|SENT_WITH_ERRORS|EXCEPTION_OCCURRED|NO_ARGUMENTS|NO_APPLICATION_CONFIG|IDE_NOT_CLOSING|ERROR_ON_SEND|NO_DEVICE_ID|NO_MACHINE_ID|INVALID_BUCKET|INVALID_REVISION|NO_LOG_FILES}", "{enum:NO_LOGS|NO_UPLOADER|NO_LIBRARIES|NO_TEMP_FOLDER}", "{enum:EMPTY_CONTENT|INVALID_JSON|UNKNOWN|EMPTY_SERVICE_URL|UNREACHABLE_SERVICE|EMPTY_RESPONSE_BODY|ERROR_ON_LOAD|UNKNOWN_IO_ERROR}" ],
         "error_ts" : [ "{regexp#integer}" ],
         "errors" : [ "{regexp#integer}" ],
         "external" : [ "{enum#boolean}" ],
@@ -29,7 +30,7 @@
         "version" : [ "{regexp#version}" ]
       },
       "enums" : {
-        "__event_id" : [ "logs.send", "loading.config.failed", "metadata.loaded", "metadata.updated", "metadata.update.failed", "metadata.load.failed", "external.send.finished", "external.send.started", "external.send.command.creation.started", "external.send.command.creation.finished", "sent.logs.files.calculated" ]
+        "__event_id" : [ "logs.send", "loading.config.failed", "metadata.loaded", "metadata.updated", "metadata.update.failed", "metadata.load.failed", "external.send.finished", "external.send.started", "external.send.command.creation.started", "external.send.command.creation.finished", "sent.logs.files.calculated", "dictionaries.load.failed", "dictionary.update.failed", "dictionaries.loaded", "dictionary.updated" ]
       }
     },
     "anonymized_fields" : [ {
@@ -395,5 +396,5 @@
       "version" : "Unknown|unknown.format|unknown|UNKNOWN|((\\d+\\.?)*\\d+)"
     }
   },
-  "version" : "6035"
+  "version" : "6157"
 }
