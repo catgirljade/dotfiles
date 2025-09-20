@@ -1,0 +1,10 @@
+vesktop/
+dconf/
+fcitx/dbus/
+filezilla/sitemanager.xml
+ibus/
+JetBrains/Idea*/tasks/
+JetBrains/Idea*/workspace/
+JetBrains/Idea*/.lock
+mimeapps.list
+
