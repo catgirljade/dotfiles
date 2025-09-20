@@ -28,9 +28,6 @@ Variants {
                 regions: [
                     Region {
                         item: topBar
-                    },
-                    Region {
-                        item: notifs
                     }
                 ]
             }
