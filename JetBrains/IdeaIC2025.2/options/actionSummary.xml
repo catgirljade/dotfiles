@@ -4,7 +4,7 @@
       <i c="22" l="1758351319979" />
     </e>
     <e n="$Undo">
-      <i c="61" l="1758351150017" />
+      <i c="71" l="1758353600904" />
     </e>
     <e n="AtomFileIcons.Actions">
       <i c="1" l="1758351348984" />
@@ -18,6 +18,9 @@
     <e n="ChangesView.Revert">
       <i c="1" l="1758340607144" />
     </e>
+    <e n="ChooseRuntime">
+      <i c="1" d="1" l="1758352888018" k="1758352888018" />
+    </e>
     <e n="CloseProject">
       <i c="2" l="1758285263442" />
     </e>
@@ -28,7 +31,7 @@
       <i c="2" l="1758351331524" />
     </e>
     <e n="EditCustomVmOptions">
-      <i c="2" l="1758336427877" />
+      <i c="3" l="1758353615072" />
     </e>
     <e n="EditorBackSpace">
       <i c="178" l="1758351320265" />
@@ -43,10 +46,10 @@
       <i c="15" l="1758351609762" />
     </e>
     <e n="EditorCut">
-      <i c="9" l="1758345001095" />
+      <i c="10" l="1758353621311" />
     </e>
     <e n="EditorDeleteToWordStart">
-      <i c="87" l="1758351253215" />
+      <i c="89" l="1758353425793" />
     </e>
     <e n="EditorDown">
       <i c="113" l="1758348453486" />
@@ -58,16 +61,16 @@
       <i c="57" l="1758348454280" />
     </e>
     <e n="EditorEscape">
-      <i c="35" l="1758351595690" />
+      <i c="44" l="1758353626844" />
     </e>
     <e n="EditorLeft">
-      <i c="95" l="1758348442640" />
+      <i c="97" l="1758351654473" />
     </e>
     <e n="EditorLineEnd">
       <i c="18" l="1758344511026" />
     </e>
     <e n="EditorLineStart">
-      <i c="6" l="1758344499702" />
+      <i c="7" l="1758353618548" />
     </e>
     <e n="EditorNextWord">
       <i c="71" l="1758348455135" />
@@ -82,7 +85,7 @@
       <i c="59" l="1758348005934" />
     </e>
     <e n="EditorRight">
-      <i c="62" l="1758348449696" />
+      <i c="65" l="1758351654906" />
     </e>
     <e n="EditorScrollDown">
       <i c="1" l="1758336526212" />
@@ -100,7 +103,7 @@
       <i c="1" l="1758342153410" />
     </e>
     <e n="EditorUp">
-      <i c="63" l="1758348454700" />
+      <i c="67" l="1758353620259" />
     </e>
     <e n="EditorUpWithSelection">
       <i c="2" l="1758342149889" />
@@ -150,8 +153,11 @@
     <e n="Github.PullRequest.Open.Link">
       <i c="2" l="1758348960741" />
     </e>
+    <e n="GotoAction">
+      <i c="1" l="1758352882768" />
+    </e>
     <e n="GotoClass">
-      <i c="44" l="1758351221702" />
+      <i c="72" l="1758353637008" />
     </e>
     <e n="GotoDeclaration">
       <i c="26" l="1758342211237" />
@@ -204,6 +210,9 @@
     <e n="ParameterInfo">
       <i c="8" l="1758344481597" />
     </e>
+    <e n="QuickJavaDoc">
+      <i c="1" l="1758353435828" />
+    </e>
     <e n="ReformatCode">
       <i c="5" l="1758342246102" />
     </e>
@@ -213,8 +222,11 @@
     <e n="Run">
       <i c="2" l="1758342423660" />
     </e>
+    <e n="RunAnything">
+      <i c="1" l="1758352874759" />
+    </e>
     <e n="SaveAll">
-      <i c="8" l="1758351071712" />
+      <i c="9" l="1758353622719" />
     </e>
     <e n="SettingsEntryPoint">
       <i c="9" l="1758351329531" />
@@ -223,7 +235,7 @@
       <i c="14" l="1758348455466" />
     </e>
     <e n="ShowSettings">
-      <i c="55" l="1758351627872" />
+      <i c="57" l="1758351941508" />
     </e>
     <e n="ShowUsages">
       <i c="2" l="1758336806498" />
@@ -271,7 +283,7 @@
       <i c="4" l="1758348001020" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="15" l="1758351072585" />
+      <i c="16" l="1758353624946" />
     </e>
     <e n="com.intellij.openapi.keymap.impl.ui.KeymapPanel$AddKeyboardShortcutAction">
       <i c="9" l="1758337220375" />
@@ -286,13 +298,13 @@
       <i c="10" l="1758337219246" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="62" l="1758351650317" />
+      <i c="90" l="1758353638182" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
       <i c="8" l="1758351074011" />
     </e>
     <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
-      <i c="7" l="1758350911081" />
+      <i c="8" l="1758351719506" />
     </e>
     <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$2">
       <i c="1" l="1758350972372" />
@@ -301,7 +313,7 @@
       <i c="22" l="1758351404979" />
     </e>
     <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
-      <i c="67" l="1758351627264" />
+      <i c="71" l="1758353609906" />
     </e>
     <e n="com.intellij.terminal.frontend.action.SendShortcutToTerminalAction">
       <i c="113" l="1758348937249" />

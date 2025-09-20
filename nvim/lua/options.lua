@@ -10,7 +10,7 @@ opt.tabstop = 4
 opt.shiftwidth = 4
 opt.softtabstop = 4
 opt.expandtab = false
-opt.smartindent = true
+opt.autoindent = true
 opt.wrap = false
 
 -- Search
@@ -28,6 +28,7 @@ opt.signcolumn = "yes"
 opt.cmdheight = 1
 -- opt.scrolloff = 8
 vim.opt.cursorline = true
+vim.opt.cursorlineopt = "screenline,number"
 opt.completeopt = "menuone,noinsert,noselect"
 
 -- Behavour

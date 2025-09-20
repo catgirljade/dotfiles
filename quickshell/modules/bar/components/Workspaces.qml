@@ -4,6 +4,7 @@ import qs.components
 import qs
 import qs.services
 import QtQuick.Layouts
+import Quickshell.Hyprland
 
 Item {
     id: root
@@ -88,7 +89,7 @@ Item {
 
                             BarText {
                                 font.bold: true
-                                text: Hypr.workspaces.values[entry.index] == undefined ? "" : entry.index + 1
+                                text: ""
                                 anchors.centerIn: parent
                                 color: entry.color
                             }

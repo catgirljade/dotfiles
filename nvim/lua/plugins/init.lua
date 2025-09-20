@@ -152,7 +152,9 @@ return {
 		version = "*",
 		lazy = false,
 		config = function()
-			require("mini.pairs").setup()
+			require("mini.pairs").setup({
+				modes = { insert = true, command = false, terminal = true },
+			})
 		end,
 	},
 	-- {
