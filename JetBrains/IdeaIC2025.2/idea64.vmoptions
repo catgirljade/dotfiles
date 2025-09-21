@@ -1,0 +1,5 @@
+# custom IntelliJ IDEA VM options (expand/override 'bin/idea64.vmoptions')
+-Xmx2048m
+-Dide.managed.by.toolbox=/home/jade/AppTools/jetbrains-toolbox-2.8.0.51430/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=dfc81222-6919-4992-99c6-70c1a9c7ffb7
+-Dtoolbox.notification.portFile=/home/jade/.cache/JetBrains/Toolbox/ports/e1b141b8-67e9-4d91-9b33-9179591e45d2.port

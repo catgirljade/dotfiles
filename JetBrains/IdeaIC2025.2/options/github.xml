@@ -1,0 +1,10 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="catgirljade" id="6123eecc-7fa7-4dea-8335-46f09bdbf1f9">
+      <server host="github.com" />
+    </account>
+  </component>
+  <component name="GithubSettings">
+    <option name="AUTOMATICALLY_MARK_AS_VIEWED" value="false" />
+  </component>
+</application>

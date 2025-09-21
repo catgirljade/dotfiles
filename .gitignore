@@ -1,0 +1,14 @@
+vesktop/
+dconf/
+fcitx/dbus/
+filezilla/sitemanager.xml
+ibus/
+JetBrains/Idea*/*
+!JetBrains/Idea*/keymaps
+!JetBrains/Idea*/colors
+!JetBrains/Idea*/codestyles
+!JetBrains/Idea*/options
+!JetBrains/Idea*/idea64.vmoptions
+mimeapps.list
+
+

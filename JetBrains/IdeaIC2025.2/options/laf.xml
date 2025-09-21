@@ -1,0 +1,10 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="246a798b-a742-42c0-a587-43f3aceb11bb" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="246a798b-a742-42c0-a587-43f3aceb11bb" scheme="Atom One Dark copy" />
+      <laf-to-scheme laf="ExperimentalDark" scheme="Atom One Dark copy" />
+      <laf-to-scheme laf="com.github.rmehri01.onenord" scheme="Atom One Dark copy" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>
