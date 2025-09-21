@@ -4,14 +4,12 @@ import qs.components
 import qs
 import qs.services
 import QtQuick.Layouts
-import Quickshell.Hyprland
 
 Item {
     id: root
-    anchors.margins: -4
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
-    width: container.implicitWidth
+    Layout.margins: -4
+    Layout.fillHeight: true
+    implicitWidth: container.implicitWidth
 
     BarRect {
         anchors.fill: container

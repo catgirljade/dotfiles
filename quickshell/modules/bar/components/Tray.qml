@@ -7,10 +7,12 @@ import Quickshell.Services.SystemTray
 RowLayout {
     id: root
 
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
+    implicitWidth: repeater.width
+    // anchors.top: parent.top
+    // anchors.bottom: parent.bottom
 
     Repeater {
+        id: repeater
         model: SystemTray.items
 
         Loader {

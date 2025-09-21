@@ -6,8 +6,6 @@ import Quickshell.Services.UPower
 
 RowLayout {
     id: contents
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
     spacing: 16
 
     RowLayout {

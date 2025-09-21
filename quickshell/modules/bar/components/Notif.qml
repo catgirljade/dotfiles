@@ -1,13 +1,12 @@
+pragma ComponentBehavior: Bound
+
 import QtQuick
 import qs
 import qs.components
 import qs.services
 
 Item {
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
-    anchors.margins: -8
-    width: height
+    implicitWidth: 32
 
     IconText {
         anchors.centerIn: parent

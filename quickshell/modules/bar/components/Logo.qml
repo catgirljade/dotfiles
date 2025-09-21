@@ -4,12 +4,10 @@ import qs.components
 import qs.services
 
 Item {
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
-    anchors.margins: -8
-    width: height
+    implicitWidth: icon.width
 
     IconText {
+        id: icon
         anchors.centerIn: parent
         font.pointSize: Constants.font.iconSize
         text: ""
@@ -18,7 +16,6 @@ Item {
             anchors.fill: parent
             onClicked: {
                 Hypr.dispatch(`exec rofi -show drun`);
-                // launcherPopup.visible = true;
             }
         }
     }

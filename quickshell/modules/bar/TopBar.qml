@@ -1,3 +1,4 @@
+import QtQuick.Layouts
 import qs
 import qs.modules.bar.components
 
@@ -12,13 +13,16 @@ Bar {
         anchors.top: true
     }
 
-    Logo {
-        id: logo
-        anchors.bottom: bar.bottom
-    }
+    RowLayout {
+        anchors.left: parent.left
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: 12
+        spacing: 12
 
-    Workspaces {
-        anchors.left: logo.right
+        Logo {}
+
+        Workspaces {}
     }
 
     Active {
@@ -26,25 +30,22 @@ Bar {
         anchors.horizontalCenter: parent.horizontalCenter
     }
 
-    Tray {
-        anchors.right: notifs.left
-    }
-
-    Notif {
-        id: notifs
-        anchors.right: perf.left
-        anchors.rightMargin: 8
-    }
-
-    Perf {
-        id: perf
-        anchors.right: clock.left
-        anchors.rightMargin: 8
-    }
-
-    Clock {
-        id: clock
+    RowLayout {
         anchors.right: parent.right
-        anchors.rightMargin: 8
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        spacing: 8
+
+        Tray {}
+
+        Notif {}
+
+        Seperator {}
+
+        Perf {}
+
+        Seperator {}
+
+        Clock {}
     }
 }

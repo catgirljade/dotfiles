@@ -6,30 +6,31 @@ import qs.services
 
 RowLayout {
     id: contents
-    anchors.top: parent.top
-    anchors.bottom: parent.bottom
-    anchors.margins: -4
-    spacing: 8
+    spacing: 16
 
-    Item {
-        implicitHeight: parent.height
-        implicitWidth: 32
+    RowLayout {
+        Item {
+            implicitHeight: parent.height
+            implicitWidth: 32
 
-        IconText {
-            anchors.centerIn: parent
-            text: "󰃭"
-            color: Constants.nord9
+            IconText {
+                anchors.centerIn: parent
+                text: "󰃭"
+                color: Constants.nord9
+            }
         }
-    }
 
-    BarText {
-        font.bold: true
-        text: new Date().toLocaleDateString()
-        color: Constants.nord6
+        BarText {
+            font.bold: true
+            text: new Date().toLocaleDateString()
+            color: Constants.nord6
+        }
     }
 
     BarRect {
         Layout.fillWidth: true
+        Layout.fillHeight: true
+        Layout.margins: -2
         color: Constants.nord2
 
         implicitWidth: time.width + 12
