@@ -9,6 +9,8 @@ JetBrains/Idea*/*
 !JetBrains/Idea*/codestyles
 !JetBrains/Idea*/options
 !JetBrains/Idea*/idea64.vmoptions
+aseprite/files
+aseprite/sessions
+aseprite/Aseprite.log
 mimeapps.list
-
 

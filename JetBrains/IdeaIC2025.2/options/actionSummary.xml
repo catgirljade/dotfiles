@@ -157,7 +157,7 @@
       <i c="1" l="1758352882768" />
     </e>
     <e n="GotoClass">
-      <i c="73" l="1758426191862" />
+      <i c="74" l="1758707949192" />
     </e>
     <e n="GotoDeclaration">
       <i c="26" l="1758342211237" />
@@ -298,10 +298,10 @@
       <i c="10" l="1758337219246" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="94" l="1758426201872" />
+      <i c="95" l="1758707953419" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="8" l="1758351074011" />
+      <i c="9" l="1758707956357" />
     </e>
     <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
       <i c="9" l="1758375016283" />

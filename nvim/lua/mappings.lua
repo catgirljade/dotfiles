@@ -87,6 +87,8 @@ noremap("niv", "<C-S>", function()
 		end,
 	})
 end)
+-- cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit
+noremap("n", "s<C-S>", cmd_callback("SudaWrite"))
 
 if vim.fn.has("clipboard") then
 	noremap("v", "<C-X>", '"+x')

@@ -6,7 +6,7 @@
 }
 
 trough highlight {
-	background: #D8DEE9;
+	background: #d8dee9;
 }
 
 scale {
@@ -35,7 +35,7 @@ trough slider:hover {
 }
 
 trough {
-	background-color: #434F68;
+	background-color: #434f68;
 }
 
 /* notifications */
@@ -46,7 +46,7 @@ trough {
 	border-radius: 12.6px;
 	margin: 8px;
 	background: #323848;
-	color: #D8DEE9;
+	color: #d8dee9;
 	padding: 0;
 }
 
@@ -69,7 +69,7 @@ trough {
 }
 
 .notification-content .summary {
-	color: #D8DEE9;
+	color: #d8dee9;
 }
 
 .notification-content .time {
@@ -88,12 +88,12 @@ trough {
 	margin: 7px;
 	padding: 2px;
 	border-radius: 6.3px;
-	color: #D8DEE9;
-	background-color: #3D424D;
+	color: #d8dee9;
+	background-color: #3d424d;
 }
 
 .notification-background .close-button:hover {
-	background-color: #434F68;
+	background-color: #434f68;
 }
 
 .notification-background .close-button:active {
@@ -102,7 +102,7 @@ trough {
 
 .notification .notification-action {
 	border-radius: 7px;
-	color: #D8DEE9;
+	color: #d8dee9;
 	box-shadow: inset 0 0 0 1px #51576d;
 	margin: 4px;
 	padding: 8px;
@@ -110,7 +110,7 @@ trough {
 }
 
 .notification .notification-action {
-	background-color: #21242B;
+	background-color: #21242b;
 }
 
 .notification .notification-action:hover {
@@ -127,7 +127,7 @@ trough {
 
 .notification.low progress,
 .notification.normal progress {
-	background-color: #D8DEE9;
+	background-color: #d8dee9;
 }
 
 .notification progress,
@@ -144,7 +144,7 @@ trough {
 		inset 0 0 0 1px #293544;
 	border-radius: 12.6px;
 	background-color: #323848;
-	color: #D8DEE9;
+	color: #d8dee9;
 	padding: 14px;
 }
 
@@ -163,13 +163,13 @@ trough {
 }
 
 .control-center .widget-title > label {
-	color: #D8DEE9;
+	color: #d8dee9;
 	font-size: 1.3em;
 }
 
 .control-center .widget-title button {
 	border-radius: 7px;
-	color: #D8DEE9;
+	color: #d8dee9;
 	/* background-color: #434F68; */
 	box-shadow: inset 0 0 0 1px #51576d;
 	padding: 8px;
@@ -188,7 +188,7 @@ trough {
 }
 
 .control-center .notification-group:focus .notification-background {
-	background-color: #242831;
+	background-color: #24262e;
 }
 
 scrollbar slider {
@@ -210,7 +210,7 @@ scrollbar trough {
 .widget-dnd > switch {
 	font-size: initial;
 	border-radius: 8px;
-	background: #434F68;
+	background: #434f68;
 	box-shadow: none;
 }
 
@@ -219,7 +219,7 @@ scrollbar trough {
 }
 
 .widget-dnd > switch slider {
-	background: #D8DEE9;
+	background: #d8dee9;
 	border-radius: 8px;
 }
 
@@ -244,17 +244,17 @@ scrollbar trough {
 
 .widget-mpris-title {
 	font-size: 1.2rem;
-	color: #D8DEE9;
+	color: #d8dee9;
 }
 
 .widget-mpris-subtitle {
 	font-size: 1rem;
-	color: #C8CEDA;
+	color: #c8ceda;
 }
 
 .widget-mpris button {
 	border-radius: 12.6px;
-	color: #D8DEE9;
+	color: #d8dee9;
 	margin: 0 5px;
 	padding: 2px;
 }
@@ -291,7 +291,7 @@ scrollbar trough {
 }
 
 .control-center .widget-label > label {
-	color: #D8DEE9;
+	color: #d8dee9;
 	font-size: 2rem;
 }
 
