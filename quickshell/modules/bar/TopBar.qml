@@ -1,5 +1,6 @@
 import QtQuick.Layouts
 import qs
+import qs.components
 import qs.modules.bar.components
 
 Bar {
@@ -25,9 +26,28 @@ Bar {
         Workspaces {}
     }
 
-    Active {
-        maxWidth: bar.width / 3
+    RowLayout {
         anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
+        spacing: 16
+
+        Clock {}
+
+        BarRect {
+            Layout.fillHeight: true
+            Layout.margins: -2
+            color: Constants.nord2
+            implicitWidth: active.implicitWidth + 24
+
+            Active {
+                id: active
+                maxWidth: bar.width / 3
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+        }
+
+        Date {}
     }
 
     RowLayout {
@@ -43,9 +63,5 @@ Bar {
         Seperator {}
 
         Perf {}
-
-        Seperator {}
-
-        Clock {}
     }
 }

@@ -13,7 +13,7 @@ Item {
 
     anchors.top: parent.top
     anchors.bottom: parent.bottom
-    implicitWidth: icon.implicitWidth + current.implicitWidth
+    implicitWidth: icon.implicitWidth + current.implicitWidth + 8
     implicitHeight: Math.max(icon.implicitHeight, current.implicitHeight)
 
     IconText {
@@ -25,7 +25,6 @@ Item {
         animate: true
         text: Constants.icons.getAppCategoryIcon(Hypr.activeToplevel?.lastIpcObject.class, Constants.icons.desktopIcon)
         color: Constants.nord4
-        font.pointSize: Constants.font.bigIconSize
     }
 
     Title {
@@ -40,7 +39,7 @@ Item {
         id: metrics
 
         text: Hypr.activeToplevel?.title ?? "Desktop"
-        font.pointSize: Constants.font.normalSize
+        font.pointSize: Constants.font.smallSize
         font.family: Constants.font.family
 
         elide: Qt.ElideRight

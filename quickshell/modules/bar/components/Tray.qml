@@ -6,10 +6,7 @@ import Quickshell.Services.SystemTray
 
 RowLayout {
     id: root
-
     implicitWidth: repeater.width
-    // anchors.top: parent.top
-    // anchors.bottom: parent.bottom
 
     Repeater {
         id: repeater

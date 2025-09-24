@@ -4,9 +4,9 @@ import Quickshell
 import QtQuick
 
 Singleton {
-    readonly property color nord0: "#2c313c"
+    readonly property color nord0: "#2a2f40"
     readonly property color nord1: "#323848"
-    readonly property color nord2: "#434f68"
+    readonly property color nord2: "#3e4657"
     readonly property color nord3: "#4c5872"
     readonly property color nord4: "#d8dee9"
     readonly property color nord5: "#e5e9f0"
@@ -104,12 +104,12 @@ Singleton {
     }
 
     property QtObject animDurations: QtObject {
-        readonly property int normal: 400
+        readonly property int normal: 300
     }
 
     property QtObject font: QtObject {
         readonly property string family: "JetBrainsMono Nerd Font"
-        readonly property int smallSize: 9
+        readonly property int smallSize: 11
         readonly property int normalSize: 12
         readonly property int bigIconSize: 20
         readonly property int iconSize: 16

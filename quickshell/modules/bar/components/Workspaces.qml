@@ -13,7 +13,7 @@ Item {
 
     BarRect {
         anchors.fill: container
-        color: Constants.nord2
+        color: Constants.nord3
     }
 
     BarRect {

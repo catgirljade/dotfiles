@@ -15,14 +15,14 @@ RowLayout {
 
         IconText {
             anchors.centerIn: parent
-            text: ""
+            text: "󰃭"
             color: Constants.nord9
         }
     }
 
     BarText {
         font.bold: true
-        text: Time.format("hh:mm:ss")
+        text: Time.format("dd/MM/yyyy")
         color: Constants.nord6
     }
 }

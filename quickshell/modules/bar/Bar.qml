@@ -1,7 +1,7 @@
 import QtQuick
 import Quickshell
 import qs
-import QtQuick.Effects 
+import QtQuick.Effects
 
 Rectangle {
     required property ShellScreen screen
@@ -14,7 +14,7 @@ Rectangle {
     layer.enabled: true
     layer.effect: MultiEffect {
         shadowEnabled: true
-        blurMax: 20
+        blurMax: 16
         shadowColor: Qt.alpha(Constants.nord0, 1)
     }
     /*Text {

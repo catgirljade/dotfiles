@@ -15,6 +15,8 @@ Singleton {
     property real lastCpuIdle
     property real lastCpuTotal
 
+    property real cpuTemp
+
     function formatKib(kib: real): var {
         const mib = 1024;
         const gib = 1024 ** 2;
@@ -49,6 +51,7 @@ Singleton {
         onTriggered: {
             stat.reload();
             meminfo.reload();
+            cputemp.reload();
         }
     }
 
@@ -81,6 +84,17 @@ Singleton {
             const data = text();
             root.memTotal = parseInt(data.match(/MemTotal: *(\d+)/)[1], 10) || 1;
             root.memUsed = (root.memTotal - parseInt(data.match(/MemAvailable: *(\d+)/)[1], 10)) || 0;
+        }
+    }
+
+    FileView {
+        id: cputemp
+
+        path: "/sys/class/thermal/thermal_zone10/temp"
+
+        onLoaded: {
+            const data = text();
+            root.cpuTemp = parseInt(data, 10) / 1000;
         }
     }
 }

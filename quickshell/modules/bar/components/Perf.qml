@@ -30,6 +30,28 @@ RowLayout {
 
     RowLayout {
         Layout.fillWidth: true
+
+        IconText {
+            Layout.fillWidth: true
+            property int perc: Math.round(SystemUsage.cpuTemp)
+            readonly property var iconMap: [[90, ""], [80, ""], [70, ""], [60, ""], [-1, ""]]
+            text: iconMap.find(x => perc > x[0])[1]
+        }
+
+        BarText {
+            Layout.fillWidth: true
+
+            property int perc: SystemUsage.cpuTemp
+            readonly property var colorMap: [[90, Constants.nord11], [80, Constants.nord12], [70, Constants.nord13], [-1, Constants.nord14]]
+
+            font.bold: true
+            text: perc.toString().padStart(2, "0") + "󰔄"
+            color: colorMap.find(x => perc > x[0])[1]
+        }
+    }
+
+    RowLayout {
+        Layout.fillWidth: true
         IconText {
             Layout.fillWidth: true
             text: ""
