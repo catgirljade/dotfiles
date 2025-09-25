@@ -2,6 +2,8 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/IdeaProjects/OldAnimations" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/flowey-monumenta-addons" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/monumenta-mixins" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/monumenta-plugins" value="true" />
         <entry key="$USER_HOME$/IdeaProjects/rogule" value="true" />

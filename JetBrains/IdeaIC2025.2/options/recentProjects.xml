@@ -2,22 +2,6 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/IdeaProjects/monumenta-mixins">
-          <value>
-            <RecentProjectMetaInfo frameTitle="monumenta-mixins" projectWorkspaceId="31PMl0nSnPOpxQBpErPYhUBC7Cv">
-              <option name="activationTimestamp" value="1758285260560" />
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.25557.131" />
-              <option name="buildTimestamp" value="1756326060000" />
-              <option name="colorInfo">
-                <RecentProjectColorInfo associatedIndex="0" />
-              </option>
-              <frame x="10" y="56" width="2540" height="1534" />
-              <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1758285260670" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$USER_HOME$/IdeaProjects/rogule">
           <value>
             <RecentProjectMetaInfo frameTitle="rogule" projectWorkspaceId="31KMLwvKpwVAcnaMpwxW6qJ51cK">
@@ -34,24 +18,73 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
-        <entry key="$USER_HOME$/IdeaProjects/monumenta-plugins">
+        <entry key="$USER_HOME$/IdeaProjects/OldAnimations">
           <value>
-            <RecentProjectMetaInfo frameTitle="monumenta-plugins [~/IdeaProjects/monumenta-plugins] – /home/jade/IdeaProjects/monumenta-plugins/plugins/paper/src/main/java/com/playmonumenta/plugins/bosses/bosses/aurora/AuroraBoss.java" opened="true" projectWorkspaceId="318KkR7MrhzYI6CxyB2QnToNcsS">
-              <option name="activationTimestamp" value="1758707956443" />
+            <RecentProjectMetaInfo frameTitle="OldAnimations [~/IdeaProjects/OldAnimations] – /home/jade/IdeaProjects/OldAnimations/build.gradle" projectWorkspaceId="3193LAmDi1GFlvzgKjKAC1sHJp1">
+              <option name="activationTimestamp" value="1758714696962" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IC-252.25557.131" />
-              <option name="buildTimestamp" value="1756326060000" />
+              <option name="build" value="IC-252.26199.169" />
+              <option name="buildTimestamp" value="1758215160000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="7" />
               </option>
               <frame x="10" y="56" width="2540" height="1534" />
               <option name="productionCode" value="IC" />
-              <option name="projectOpenTimestamp" value="1758285275675" />
+              <option name="projectOpenTimestamp" value="1758714540426" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/flowey-monumenta-addons">
+          <value>
+            <RecentProjectMetaInfo frameTitle="flowey-monumenta-addons [~/IdeaProjects/flowey-monumenta-addons] – /home/jade/IdeaProjects/flowey-monumenta-addons/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-ce77d4d52f/1.20.4-loom.mappings.1_20_4.layered+hash.1950770337-v2/minecraft-merged-ce77d4d52f-1.20.4-loom.mappings.1_20_4.layered+hash.1950770337-v2-sources.jar!/net/minecraft/client/player/RemotePlayer.java" projectWorkspaceId="3391zkLB37kTVIEsvgYxKsil3TG">
+              <option name="activationTimestamp" value="1758721298269" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.26199.169" />
+              <option name="buildTimestamp" value="1758215160000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="10" y="56" width="2540" height="1534" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1758721069494" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/monumenta-mixins">
+          <value>
+            <RecentProjectMetaInfo frameTitle="monumenta-mixins [~/IdeaProjects/monumenta-mixins] – /home/jade/IdeaProjects/monumenta-mixins/src/main/resources/monumenta.mixins.json" projectWorkspaceId="31PMl0nSnPOpxQBpErPYhUBC7Cv">
+              <option name="activationTimestamp" value="1758799640966" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.26199.169" />
+              <option name="buildTimestamp" value="1758215160000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="10" y="56" width="2540" height="1534" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1758721309397" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/monumenta-plugins">
+          <value>
+            <RecentProjectMetaInfo frameTitle="monumenta-plugins [~/IdeaProjects/monumenta-plugins] – /home/jade/IdeaProjects/monumenta-plugins/plugins/adapter_v1_20_R3/src/main/java/com/playmonumenta/plugins/adapters/VersionAdapter_v1_20_R3.java" opened="true" projectWorkspaceId="318KkR7MrhzYI6CxyB2QnToNcsS">
+              <option name="activationTimestamp" value="1758801377736" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-252.26199.169" />
+              <option name="buildTimestamp" value="1758215160000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="1285" y="56" width="1265" height="1534" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1758799646047" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
     <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/monumenta-plugins" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
   </component>
 </application>

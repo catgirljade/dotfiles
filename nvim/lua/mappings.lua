@@ -100,6 +100,13 @@ if vim.fn.has("clipboard") then
 end
 
 noremap("v", "<C-r>", '"1y:%s/<C-r>1//gc<left><left><left>')
+noremap("n", "<C-Left>", "b")
+noremap("n", "<C-Right>", "w")
+vim.cmd([[
+set whichwrap+=<,h
+set whichwrap+=>,l
+set whichwrap+=[,]
+]])
 
 noremap("v", "<tab>", ">")
 noremap("i", "<C-BS>", "<C-W>")
