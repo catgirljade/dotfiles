@@ -1,0 +1,154 @@
+@define-color window_bg_color #323848;
+@define-color accent_bg_color #4C5872;
+@define-color theme_fg_color #D8DEE9;
+
+* {
+	all: unset;
+}
+
+.normal-icons {
+	-gtk-icon-size: 16px;
+}
+
+.large-icons {
+	-gtk-icon-size: 32px;
+}
+
+scrollbar {
+	opacity: 0;
+}
+
+.box-wrapper {
+	box-shadow:
+		rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px,
+		rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px,
+		rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+	background: @window_bg_color;
+	padding: 15px;
+	border-radius: 20px;
+	border: 1px solid darker(@accent_bg_color);
+}
+
+.preview-box,
+.elephant-hint,
+.placeholder {
+	color: @theme_fg_color;
+}
+
+.box {
+}
+
+.search-container {
+	border-radius: 10px;
+}
+
+.input placeholder {
+	font-family: "JetbrainsMono Nerd Font";
+	opacity: 0.5;
+}
+
+.input {
+	font-family: "JetbrainsMono Nerd Font";
+	font-weight: bold;
+	caret-color: @theme_fg_color;
+	background: lighter(@window_bg_color);
+	padding: 10px;
+	color: @theme_fg_color;
+}
+
+.input:focus,
+.input:active {
+}
+
+.content-container {
+}
+
+.placeholder {
+}
+
+.scroll {
+}
+
+.list {
+	color: @theme_fg_color;
+}
+
+child {
+}
+
+.item-box {
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.item-quick-activation {
+	margin-left: 10px;
+	background: alpha(@accent_bg_color, 0.25);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+child:hover .item-box,
+child:selected .item-box {
+	background: alpha(@accent_bg_color, 0.25);
+}
+
+.item-text-box {
+}
+
+.item-text {
+	font-family: "DejaVu Sans";
+	font-size: 14px;
+}
+
+.item-subtext {
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.item-image {
+	margin-right: 10px;
+}
+
+.keybind-hints {
+	font-size: 12px;
+	opacity: 0.5;
+	color: @theme_fg_color;
+}
+
+.preview {
+	border: 1px solid alpha(@accent_bg_color, 0.25);
+	padding: 10px;
+	border-radius: 10px;
+	color: @theme_fg_color;
+}
+
+.calc .item-text {
+	font-size: 24px;
+}
+
+.calc .item-subtext {
+}
+
+.symbols .item-image {
+	font-size: 24px;
+}
+
+.todo.done .item-text-box {
+	opacity: 0.25;
+}
+
+.todo.urgent {
+	font-size: 24px;
+}
+
+.todo.active {
+	font-weight: bold;
+}
+
+.preview .large-icons {
+	-gtk-icon-size: 64px;
+}

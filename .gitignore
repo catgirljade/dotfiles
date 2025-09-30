@@ -1,0 +1,17 @@
+vesktop/
+go/
+libaccounts-glib/
+dconf/
+fcitx/dbus/
+filezilla/sitemanager.xml
+ibus/
+JetBrains/Idea*/*
+!JetBrains/Idea*/keymaps
+!JetBrains/Idea*/colors
+!JetBrains/Idea*/codestyles
+!JetBrains/Idea*/options/linux
+!JetBrains/Idea*/idea64.vmoptions
+aseprite/files
+aseprite/sessions
+mimeapps.list
+
