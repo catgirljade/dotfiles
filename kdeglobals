@@ -98,7 +98,7 @@ ColorSchemeHash=d6c2df0966578859e7aa68d5591d7e3f0cfa19bc
 Theme=Tela-dark
 
 [KDE]
-widgetStyle=kvantum-dark
+widgetStyle=qt6ct-style
 
 [WM]
 activeBackground=61,61,62
