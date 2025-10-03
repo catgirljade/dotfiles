@@ -114,7 +114,7 @@ return function()
 		},
 	})
 
-	vim.lsp.config("taplo", {
+	vim.lsp.config("toml", {
 		capabilities = capabilities,
 		_on_attach = on_attach,
 		filetypes = {

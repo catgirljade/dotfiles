@@ -1,5 +1,5 @@
-# "$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
-#
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
 [mgr]
 prepend_keymap = [
 	{ on = "<Enter>", run = "plugin smart-enter" },
@@ -71,4 +71,26 @@ prepend_keymap = [
 		"g",
 		"i",
 	], run = "plugin lazygit", desc = "Open lazygit" },
+	{ on = "[", run = "plugin whoosh jump_by_key", desc = "Jump bookmark by key" },
+	{ on = "{", run = "plugin whoosh jump_by_fzf", desc = "Jump bookmark by fuzzyfinder" },
+	{ on = [
+		"]",
+		"s",
+	], run = "plugin whoosh save", desc = "Add bookmark (hovered file/directory)" },
+	{ on = [
+		"]",
+		"S",
+	], run = "plugin whoosh save_cwd", desc = "Add bookmark (current directory)" },
+	{ on = [
+		"]",
+		"t",
+	], run = "plugin whoosh save_cwd_temp", desc = "Add temporary bookmark (current directory)" },
+	{ on = [
+		"]",
+		"r",
+	], run = "plugin whoosh rename_by_key", desc = "Rename bookmark by key" },
+	{ on = [
+		"}",
+		"r",
+	], run = "plugin whoosh rename_by_fzf", desc = "Rename bookmark by fuzzyfinder" },
 ]

@@ -120,12 +120,8 @@
 		<Setting name="Disable update footer">0</Setting>
 		<Setting name="Highest shown overlay id">0</Setting>
 		<Setting name="Resolve local symlinks" platform="unix">0</Setting>
-		<Setting name="Last automatic update check">2025-09-20 02:55:12</Setting>
 		<Setting name="Greeting version">3.69.3</Setting>
 		<Setting name="Last automatic update version">3.69.3</Setting>
-		<Setting name="Update Check New Version" platform="unix">nightly 2025-09-19 https://filezilla-project.org/nightlies/2025-09-19/x86_64-linux-gnu/FileZilla3.tar.xz 12065732 sha512 37a554cf322872201347755578c12031034231d2d54833660ca26937e738e5f3c39105699c4b055c6559eb0d3523d2b374a3aa5eae2ee900fd4ee2ccbcf0ed6d sig:XYOz88pHaZGEBu+oSDCzeCn8Nt2KflwKaQL9n9ltpuJ1h2uxl9Jln4B4cG8IqYr39CloYx9knEFANlx15ZF3BQ
-release 3.69.3 https://dl2.cdn.filezilla-project.org/FileZilla_3.69.3_x86_64-linux-gnu.tar.xz 12045568 sha512 f974e930c24560a565c48dfdc5d061451857775025428235f979c85b5447b9ad4e765b82c68f63930f51ca57e6f7a10aae547880c11f7bd222b5084439cfc3ae sig:8zHPvM0DZb8xivhzVFXrWxmMGzNg4zG+qnL0ifnbnjI7+IU++dZA9101yG86do1QeziSnVGAOxpsOW5r3RNCDw
-</Setting>
 		<Setting name="Prompt password save">0</Setting>
 		<Setting name="Already connected choice">1</Setting>
 		<Setting name="Queue column widths">180 60 180 80 60 150</Setting>
@@ -140,10 +136,14 @@ release 3.69.3 https://dl2.cdn.filezilla-project.org/FileZilla_3.69.3_x86_64-lin
 		<Setting name="Remote filelist sortorder">0 0</Setting>
 		<Setting name="Site Manager position">0 37 501 1210 644 </Setting>
 		<Setting name="Sitemanager last selected">0/Monumenta</Setting>
-		<Setting name="Window position and size">0 10 828 1265 671 </Setting>
+		<Setting name="Last automatic update check">2025-10-03 08:44:38</Setting>
+		<Setting name="Update Check New Version" platform="unix">nightly 2025-10-03 https://filezilla-project.org/nightlies/2025-10-03/x86_64-linux-gnu/FileZilla3.tar.xz 12053828 sha512 f6fcc039d39da8366f1c2660df8938e78d106c67d6ea1033c919e990be1a2f9f36677e1d0f3bb6f64477ee278e1f49eefb91c659ebc11b5e1d6dcdb2d4cf5582 sig:L95GDiNYC167Os7N/mJRgQ+/lwWCSDFeZMPVqXTxsDLcz5lL1dTxAWd/NPCFFRmheq4WB3XjZlvbyW0lrKEzDA
+release 3.67.0 https://dl2.cdn.filezilla-project.org/FileZilla_3.67.0_x86_64-linux-gnu.tar.xz 12015396 sha512 3c7b1291c92e72b4053a39c1a746f78be8b285e454a4e06a599984469d5130909314481d1824571d8def6b3fda89b77c7a5fad7ea6dc455c7c383d0ada9902d0 sig:zzZg0Atj1E8dV2ruqmRLG3ikGSDphMs+YAzbiXLyvsfvGK7GhkR+m85fmzCyymcqq7xsouiMyVcek7MUUJfXDg
+</Setting>
+		<Setting name="Window position and size">0 12 58 2536 1439 </Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
-				<Tab connected="1" selected="1">
+				<Tab selected="1">
 					<Host>build.playmonumenta.com</Host>
 					<Port>8822</Port>
 					<Protocol>1</Protocol>

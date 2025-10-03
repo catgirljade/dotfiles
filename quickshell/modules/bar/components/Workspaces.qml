@@ -9,7 +9,7 @@ Item {
     id: root
     Layout.margins: -4
     Layout.fillHeight: true
-    implicitWidth: container.implicitWidth
+    implicitWidth: container.width
 
     BarRect {
         anchors.fill: container
@@ -50,7 +50,6 @@ Item {
         RowLayout {
             id: contents
             anchors.fill: parent
-            anchors.margins: -2
             spacing: 0
 
             Repeater {
@@ -85,10 +84,10 @@ Item {
                         sourceComponent: Item {
                             anchors.fill: parent
 
-                            BarText {
-                                font.bold: true
-                                text: ""
+                            BarRect {
                                 anchors.centerIn: parent
+                                width: 8
+                                height: 8
                                 color: entry.color
                             }
                         }
