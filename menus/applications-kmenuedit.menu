@@ -3,6 +3,12 @@
  <Menu>
   <Name>System Tools</Name>
   <Include/>
+  <Exclude>
+   <Filename>Yazi.desktop</Filename>
+   <Filename>footclient.desktop</Filename>
+   <Filename>foot-server.desktop</Filename>
+   <Filename>foot.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="files"/>
    <Filename>btop.desktop</Filename>
@@ -10,9 +16,6 @@
    <Filename>org.gnome.baobab.desktop</Filename>
    <Filename>org.fcitx.Fcitx5.desktop</Filename>
    <Filename>org.fedoraproject.MediaWriter.desktop</Filename>
-   <Filename>footclient.desktop</Filename>
-   <Filename>foot-server.desktop</Filename>
-   <Filename>foot.desktop</Filename>
    <Filename>org.kde.kjournaldbrowser.desktop</Filename>
    <Filename>org.kde.partitionmanager.desktop</Filename>
    <Filename>kitty.desktop</Filename>
@@ -23,14 +26,14 @@
    <Filename>setroubleshoot.desktop</Filename>
    <Filename>org.gnome.SystemMonitor.desktop</Filename>
   </Layout>
-  <Exclude>
-   <Filename>Yazi.desktop</Filename>
-  </Exclude>
  </Menu>
  <Menu>
   <Name>.hidden</Name>
   <Include>
    <Filename>Yazi.desktop</Filename>
+   <Filename>footclient.desktop</Filename>
+   <Filename>foot-server.desktop</Filename>
+   <Filename>foot.desktop</Filename>
   </Include>
  </Menu>
 </Menu>

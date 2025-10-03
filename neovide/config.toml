@@ -1,0 +1,29 @@
+backtraces_path = "/path/to/neovide_backtraces.log" # see below for the default platform specific location
+fork = true
+frame = "full"
+idle = true
+maximized = true
+mouse-cursor-icon = "arrow"
+neovim-bin = "/usr/bin/nvim"                        # in reality found dynamically on $PATH if unset
+no-multigrid = false
+srgb = false                                        # platform-specific: false (Linux/macOS) or true (Windows)
+tabs = true
+title-hidden = false
+vsync = true
+wsl = false
+
+[font]
+size = 11.0
+hinting = "slight"
+edging = "subpixelantialias"
+
+[[font.normal]]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[box-drawing]
+# "font-glyph", "native" or "selected-native"
+mode = "native"
+
+[box-drawing.sizes]
+default = [2, 4] # Thin and thick values respectively, for all sizes
