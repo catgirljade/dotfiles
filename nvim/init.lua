@@ -24,8 +24,7 @@ require("options")
 require("autocmds")
 
 vim.cmd([[
-let g:gruvbox_material_background = 'medium'
-let g:gruvbox_material_disable_italic_comment = 1
+hi MatchParen guibg=#5F6C88
 ]])
 
 -- vim.cmd.colorscheme("palenightfall")

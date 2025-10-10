@@ -91,6 +91,7 @@ end)
 noremap("n", "s<C-S>", cmd_callback("SudaWrite"))
 noremap("n", "<leader><Left>", cmd_callback("bprev"))
 noremap("n", "<leader><Right>", cmd_callback("bnext"))
+noremap("n", "cb", cmd_callback("bdelete"))
 
 if vim.fn.has("clipboard") then
 	noremap("v", "<C-X>", '"+x')

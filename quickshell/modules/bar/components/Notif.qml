@@ -1,23 +1,20 @@
 pragma ComponentBehavior: Bound
 
 import QtQuick
+import QtQuick.Layouts
 import qs
 import qs.components
 import qs.services
 
-Item {
-    implicitWidth: 32
+IconText {
+    Layout.fillWidth: true
+    font.pointSize: Constants.font.iconSize
+    text: ""
 
-    IconText {
-        anchors.centerIn: parent
-        font.pointSize: Constants.font.iconSize
-        text: ""
-
-        MouseArea {
-            anchors.fill: parent
-            onClicked: {
-                Hypr.dispatch(`exec swaync-client -t -sw`);
-            }
+    MouseArea {
+        anchors.fill: parent
+        onClicked: {
+            Hypr.dispatch(`exec swaync-client -t -sw`);
         }
     }
 }
