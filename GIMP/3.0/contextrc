@@ -1,7 +1,7 @@
 # GIMP user context
 
-(tool "gimp-rect-select-tool")
-(paint-info "gimp-paintbrush")
+(tool "gimp-pencil-tool")
+(paint-info "gimp-pencil")
 (foreground
     (color "R'G'B'A u8" 4 "\55wp\377" 0))
 (opacity 0.95999999999999996)
@@ -12,6 +12,6 @@
 (gradient "FG to BG (RGB)")
 (palette "Colour History")
 (font "Sans-serif")
-(tool-preset "Virtual core pointer")
+(tool-preset "Core Pointer")
 
 # end of user context

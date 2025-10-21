@@ -14,7 +14,7 @@
 
 {
     "label": "logout",
-    "action": "mmsg -d quit",
+    "action": "mmsg -q",
     "text": "Logout",
     "keybind": "e"
 }

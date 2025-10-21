@@ -18,7 +18,7 @@ alias d="kitten diff"
 alias zshconfig="${EDITOR} ~/.zshrc"
 alias nvimconfig="cd ~/.config/nvim/ && yazi"
 alias ohmyzsh="${EDITOR} ~/.oh-my-zsh"
-alias rg='rg --no-follow --glob "!{/proc,/sys,**/.git/*}" --no-messages'
+alias rg='rg --no-follow --glob "!{/proc/*,/sys/,**/.git/*}" --no-messages'
 alias fd='fd --exclude /proc --exclude /sys'
 
 function y() {
