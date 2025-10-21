@@ -16,12 +16,6 @@ Dependency:
 	location: path
 	string: optipng
 
-Extension "GIMP XCF" failed to load because a dependency was not met.
-Dependency:
-	type: executable
-	location: path
-	string: gimp
-
 Extension "XFIG Input" failed to load because a dependency was not met.
 Dependency:
 	type: executable

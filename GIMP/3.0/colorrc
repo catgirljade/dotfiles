@@ -3,7 +3,14 @@
 # This file holds a list of recently used colors.
 
 (color-history
-    (color "R'G'B'A u8" 4 "\377\377\377\377" 0)
+    (color "R'G'B'A float" 16 "\0\0\200\77\0\0\200\77\0\0\200\77\0\0\200\77" 0)
+    (color "R'G'B'A u8" 4 "\55wp\377" 0)
+    (color "R'G'B'A u8" 4 "\40FT\377" 0)
+    (color "R'G'B'A u8" 4 "\33\236\221\377" 0)
+    (color "R'G'B'A u8" 4 "\4\55\55\377" 0)
+    (color "R'G'B'A u8" 4 "P\360\310\377" 0)
+    (color "R'G'B'A u8" 4 "\373\373\373\377" 0)
+    (color "R'G'B'A u8" 4 "Q\363\312\377" 0)
     (color "R'G'B'A u8" 4 "P\52\15\377" 0)
     (color "R'G'B'A u8" 4 "k\76\34\377" 0)
     (color "HSVA float" 16 "\0\0\0\0\0\0\200\77\0\0\200\77\0\0\200\77" 0)

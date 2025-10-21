@@ -1,0 +1,414 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """$character $directory $git_branch$git_status"""
+
+add_newline = false
+
+right_format = """
+$singularity\
+$kubernetes\
+$vcsh\
+$hg_branch\
+$pijul_channel\
+$c\
+$cmake\
+$cobol\
+$daml\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$fennel\
+$golang\
+$guix_shell\
+$haskell\
+$haxe\
+$helm\
+$java\
+$julia\
+$kotlin\
+$gradle\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$opa\
+$perl\
+$pulumi\
+$purescript\
+$python\
+$raku\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$solidity\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$buf\
+$conda\
+$meson\
+$spack\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$cpp\
+$kotlin\
+$ocaml\
+$pixi\
+$rlang\
+$php\
+$crystal\
+$custom\
+$status\
+$os"""
+
+continuation_prompt = '▶▶ '
+
+
+# style_choices:
+# bold
+# italic
+# underline
+# dimmed
+# inverted
+# blink
+# hidden
+# strikethrough
+# bg:<color>
+# fg:<color>
+# <color>
+# none
+palette = "foo"
+
+[palettes.foo]
+orange = '#ff9b5e'
+
+#NOTE: you can customize the symbols, e.g:
+[character]
+success_symbol = "[➜]($bold green)"
+error_symbol = "[➜]($bold red)"
+
+[directory]
+disabled = false
+format = "[$path](bold bright-cyan)"
+truncation_length = 3
+truncate_to_repo = true
+# home_symbol = ""
+
+[git_branch]
+format = "[\\(](bold orange)[$branch](bold red)[\\)](bold orange) "
+
+[git_status]
+ahead = '⇡${count}'
+behind = '⇣${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+format = '[[( $all_status$ahead_behind )](fg:#769ff0)]($style)'
+style = "bg:#394260"
+
+
+[time]
+disabled = false
+format = '[[  $time ](fg:#a0a9cb )]($style)'
+time_format = "%R"                            # Hour:Minute Format
+
+[deno]
+format = " deno [ ](green bold)"
+version_format = "${raw}"
+
+[lua]
+format = " lua [${symbol}]($style)"
+style = "bold bright-yellow"
+symbol = "⨀ "
+version_format = "${raw}"
+
+[nodejs]
+detect_extensions = []
+detect_files = ["package-lock.json", "yarn.lock"]
+detect_folders = ["node_modules"]
+format = "[ ](bold bright-green)"
+version_format = "${raw}"
+
+[python]
+format = "[${symbol}(${virtualenv}) ${version}]($style)"
+style = "bold bright-yellow"
+symbol = "[ ](bold bright-blue)"
+version_format = "${raw}"
+
+[ruby]
+format = " rb [${symbol}]($style)"
+style = "bold red"
+symbol = " "
+version_format = "${raw}"
+
+[rust]
+style = "bold bright-red"
+format = " rs(italic) $symbol($style)"
+symbol = " "
+
+[swift]
+format = " sw [${symbol}]($style)"
+style = "bold bright-red"
+symbol = " "
+version_format = "${raw}"
+
+[aws]
+disabled = true
+format = " aws [$symbol $profile $region]($style)"
+style = "bold blue"
+symbol = " "
+
+[buf]
+style = "bold bright-red"
+format = " buf [$symbol $buf_version]($style)"
+symbol = "■ "
+
+[c]
+style = "bold bright-cyan"
+format = " [$symbol(-$name)]($style)"
+symbol = "ℂ "
+
+[cpp]
+style = "bold bright-cyan"
+format = " cpp [$symbol]($style)"
+symbol = " "
+
+[kotlin]
+format = " kotlin [$symbol]($style)"
+style = "bold bright-purple"
+symbol = " "
+
+[gradle]
+format = " gradle [$symbol]($style)"
+style = "bold blue"
+symbol = " "
+
+
+[ocaml]
+format = " ocaml [$symbol]($style)"
+style = "bold bright-yellow"
+symbol = " "
+
+[perl]
+format = " perl [$symbol]($style)"
+style = "bold bright-cyan"
+symbol = " "
+
+[php]
+format = " php [$symbol]($style)"
+style = "bold bright-red"
+symbol = " "
+
+[pixi]
+format = " pixi [$symbol]($style)"
+style = "bold bright-yellow"
+symbol = "pixi "
+
+[rlang]
+format = " rlang [$symbol]($style)"
+style = "bold bright-cyan"
+symbol = " "
+
+[meson]
+format = " meson [$symbol]($style)"
+style = "bold bright-red"
+symbol = "meson "
+
+[conda]
+style = "bold bright-red"
+format = " conda [$symbol$environment]($style)"
+symbol = "◯ "
+
+[dart]
+style = "bold bright-cyan"
+format = " dart [$symbol]($style)"
+symbol = " "
+
+
+[elixir]
+style = "bold bright-yellow"
+format = " exs [$symbol OTP $otp_version ]($style)"
+symbol = " "
+
+[elm]
+style = "bold bright-red"
+format = " elm [$symbol]($style)"
+symbol = "◩ "
+
+[golang]
+style = "bold bright-blue"
+format = " go [$symbol]($style)"
+symbol = "∩ "
+
+[haskell]
+style = "bold bright-yellow"
+format = " hs [$symbol]($style)"
+symbol = "❯λ "
+
+[java]
+style = "bold bright-red"
+format = " java [${symbol}]($style)"
+symbol = " "
+
+[julia]
+style = "bold bright-cyan"
+format = " jl [$symbol]($style)"
+symbol = "◎ "
+
+[memory_usage]
+style = "bold bright-cyan"
+format = " mem [${ram}( ${swap})]($style)"
+symbol = "▪▫▪ "
+
+[nim]
+style = "bold bright-yellow"
+format = " nim [$symbol]($style)"
+symbol = "▴▲▴ "
+
+[nix_shell]
+format = '[$symbol nix⎪$state⎪]($style) [$name](italic dimmed white)'
+impure_msg = '[⌽](bold dimmed red)'
+pure_msg = '[⌾](bold dimmed green)'
+style = 'bold italic dimmed blue'
+symbol = ' '
+unknown_msg = '[◌](bold dimmed ellow)'
+
+[spack]
+style = "bold bright-yellow"
+format = " spack [$symbol$environment]($style)"
+symbol = "◇ "
+
+
+[zig]
+style = "bold bright-yellow"
+format = " zig [$symbol]($style)"
+symbol = " "
+
+
+[scala]
+format = " scala [$symbol]($style)"
+symbol = " "
+
+[singularity]
+style = "bold bright-yellow"
+format = " singularity [$symbol]($style)"
+symbol = "singularity "
+
+[kubernetes]
+style = "bold bright-cyan"
+format = " kubernetes [$symbol]($style)"
+symbol = " "
+
+[vcsh]
+style = "bold bright-red"
+format = " vcsh [$symbol]($style)"
+symbol = "vcsh "
+
+[cobol]
+style = "bold bright-yellow"
+format = " cobol [$symbol]($style)"
+symbol = "cobol "
+
+[daml]
+style = "bold bright-cyan"
+format = " daml [$symbol]($style)"
+symbol = "daml "
+
+[dotnet]
+style = "bold bright-red"
+format = " dotnet [$symbol]($style)"
+symbol = ".NET "
+
+[erlang]
+style = "bold bright-yellow"
+format = " erlang [$symbol]($style)"
+symbol = " "
+
+[fennel]
+style = "bold bright-cyan"
+format = " fennel [$symbol]($style)"
+symbol = " "
+
+[haxe]
+style = "bold bright-red"
+format = " haxe [$symbol]($style)"
+symbol = " "
+
+[helm]
+style = "bold bright-yellow"
+format = " helm [$symbol]($style)"
+symbol = "helm "
+
+[opa]
+style = "bold bright-cyan"
+format = " opa [$symbol]($style)"
+symbol = "opa "
+
+[pulumi]
+format = " pulumi [$symbol]($style)"
+style = "bold bright-red"
+symbol = "pulumi "
+
+[purescript]
+style = "bold bright-yellow"
+format = " purescript [$symbol]($style)"
+symbol = " "
+
+[raku]
+style = "bold bright-cyan"
+format = " raku [$symbol]($style)"
+symbol = "raku "
+
+[red]
+style = "bold bright-red"
+format = " red [$symbol]($style)"
+symbol = "red "
+
+[solidity]
+style = "bold bright-yellow"
+format = " solidity [$symbol]($style)"
+symbol = " "
+
+[terraform]
+style = "bold bright-cyan"
+format = " terraform [$symbol]($style)"
+symbol = "terraform "
+
+[vlang]
+format = " vlang [$symbol]($style)"
+style = "bold bright-red"
+symbol = "vlang "
+
+[vagrant]
+format = " vagrant [$symbol]($style)"
+style = "bold bright-yellow"
+symbol = "vagrant "
+
+[gcloud]
+format = " gcloud [$symbol]($style)"
+style = "bold bright-cyan"
+symbol = "gcloud "
+
+[openstack]
+format = " openstack [$symbol]($style)"
+style = "bold bright-red"
+symbol = "openstack "
+
+[azure]
+format = " azure [$symbol]($style)"
+style = "bold bright-yellow"
+symbol = " "
+
+[crystal]
+format = " crystal [$symbol]($style)"
+style = "bold bright-cyan"
+symbol = " "

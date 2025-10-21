@@ -1,9 +1,10 @@
 # GIMP user context
 
-(tool "gimp-eraser-tool")
-(paint-info "gimp-eraser")
+(tool "gimp-rect-select-tool")
+(paint-info "gimp-paintbrush")
 (foreground
-    (color "R'G'B'A u8" 4 "\377\377\377\377" 0))
+    (color "R'G'B'A u8" 4 "\55wp\377" 0))
+(opacity 0.95999999999999996)
 (brush "2. Hardness 050")
 (dynamics "Pressure Size")
 (mybrush "100% Opaque")
@@ -11,6 +12,6 @@
 (gradient "FG to BG (RGB)")
 (palette "Colour History")
 (font "Sans-serif")
-(tool-preset "Core Pointer")
+(tool-preset "Virtual core pointer")
 
 # end of user context

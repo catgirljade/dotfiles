@@ -6,6 +6,7 @@ local options = {
 		-- You can customize some of the format options for the filetype (:help conform.format)
 		rust = { "rustfmt", lsp_format = "fallback" },
 		json = { "fixjson" },
+		xml = { "xmlformatter" },
 	},
 
 	format_on_save = {

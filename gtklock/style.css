@@ -1,0 +1,58 @@
+* {
+	font-family: "Caskaydia Cove Nerd Font";
+}
+
+#window {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* #input-label { */
+/* 	font-size: 24px; */
+/* 	font-weight: bold; */
+/* 	color: @theme_bg_color; */
+/* } */
+
+#input-field {
+	font-family: "Noto Sans";
+	font-size: 24px;
+	padding: 12px 20px;
+	border-radius: 500px;
+}
+
+#warning-label {
+	font-size: 18px;
+	color: #c3674a;
+}
+
+#error-label {
+	font-size: 22px;
+	font-weight: 900;
+	color: #b84f59;
+}
+
+#unlock-button {
+	padding: 8px 16px;
+	border-radius: 100px;
+}
+
+#unlock-button label {
+	font-size: 18px;
+}
+
+#clock-label,
+#date-label {
+	font-family: "JetbrainsMono Nerd Font";
+}
+
+#clock-label {
+	font-size: 128px;
+	font-weight: 900;
+	color: @theme_bg_color;
+}
+
+#date-label {
+	font-size: 64px;
+	font-weight: 600;
+	color: @theme_bg_color;
+}

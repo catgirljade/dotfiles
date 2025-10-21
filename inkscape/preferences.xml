@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px" />
+       unit="mm" />
     <eventcontext
        id="text"
        usecurrent="1"
@@ -1042,11 +1042,11 @@
      id="desktop"
      style="fill:#ffffff;text-orientation:auto;stroke-width:23.92062992;fill-rule:evenodd">
     <group
-       width="897"
-       height="758"
+       width="1261"
+       height="1530"
        x="0"
        y="0"
-       maximized="1"
+       maximized="0"
        fullscreen="0"
        id="geometry" />
     <group

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tags>
 
-  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="internal:gimp-brush-clipboard-image//Clipboard Image" checksum="8c30f860e05b20cc5e6e2522f15b83f7">
   </resource>
 
-  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="157dcef48665ab465439cfaf10d6feeb">
+  <resource identifier="internal:gimp-brush-clipboard-mask//Clipboard Mask" checksum="e8a918a1894ba99887ba568337d17ff7">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/brushes/Basic/1-pixel.vbr//1. Pixel" checksum="c84494b4a904a7c1a3548e564b073ca3">
@@ -760,7 +760,7 @@
   <resource identifier="external:${mypaint_brushes_dir}/ramon/wet_round.myb//wet round" checksum="038abfe33947692f773e0244d2ac7fc1">
   </resource>
 
-  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="eff9598f9f61c1dc78d842f1798c2ab8">
+  <resource identifier="internal:gimp-pattern-clipboard-image//Clipboard Image" checksum="78cff6eabb34dd7d8ebfc1a500dec170">
   </resource>
 
   <resource identifier="external:${gimp_data_dir}/patterns/Legacy/3dgreen.pat//3D Green" checksum="00052731f14a5bc614daece969b368bc">
@@ -1168,127 +1168,127 @@
   <resource identifier="external:${gimp_data_dir}/gradients/Yellow_Orange.ggr//Yellow Orange" checksum="c7f332150f1c1d8cb8100add34b0ef55">
   </resource>
 
-  <resource identifier="internal:gimp-palette-color-history//Colour History" checksum="d605d9c39d8935f62a530afab1df0c0b">
+  <resource identifier="internal:gimp-palette-color-history//Colour History" checksum="e4b7b2ddb13ec9a6b8b7ac9626b343df">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="fedfc023b90b8acd687fc38bd363b740">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bears.gpl//Bears" checksum="ef06c542748f130a00d3677ded3a2e32">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="f864045509a2563924ed1798ee9a6dfd">
+  <resource identifier="external:${gimp_data_dir}/palettes/Bgold.gpl//Bgold" checksum="802af6be6db3532e80398ea90fe0df23">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="6ab7a474200ce150a57795dc841902a9">
+  <resource identifier="external:${gimp_data_dir}/palettes/Blues.gpl//Blues" checksum="6263a31b56b38ee8563c25a32a736bd5">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="fc23a7d9494f4fae88bc9876fbb79a28">
+  <resource identifier="external:${gimp_data_dir}/palettes/Borders.gpl//Borders" checksum="8ee02fc3b83a8d79edea63cff892450b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="b14efb5bc6e11f69364557a2c7e1f98e">
+  <resource identifier="external:${gimp_data_dir}/palettes/Browns_And_Yellows.gpl//Browns And Yellows" checksum="060935731a574a44a08f5a73cd575766">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="3cd732ee128f85f019fbd3fa558f1998">
+  <resource identifier="external:${gimp_data_dir}/palettes/Caramel.gpl//Caramel" checksum="53ec6c3c3bb98c917a3d83ed42ad987d">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="8ab4330966cc915f35c2ffe04ac69a10">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cascade.gpl//Cascade" checksum="73d1c58c898febfff7c99aeb5e99ef47">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="c1d615790746db5697d274039be79398">
+  <resource identifier="external:${gimp_data_dir}/palettes/China.gpl//China" checksum="6cd2ee26836e828ae396645da73d71ff">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="ed02b4014618f67097efa38409975519">
+  <resource identifier="external:${gimp_data_dir}/palettes/Coldfire.gpl//Coldfire" checksum="64235995616e79aecf2d65dc87d6739e">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="54a0fdbe6b0a245543ab8500f12f717b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cool_Colors.gpl//Cool Colors" checksum="fa9a4f8979e3e0f167465eb974479eb7">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="6e5665f6226e2198336b0033b45a07cc">
+  <resource identifier="external:${gimp_data_dir}/palettes/Cranes.gpl//Cranes" checksum="33213b674a91f5379dbc3457d0263b6a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="65ac09de08b7d4b411b76c0813f9b6ec">
+  <resource identifier="external:${gimp_data_dir}/palettes/Dark_pastels.gpl//Dark pastels" checksum="c1094dc6fceabeecddd07420aad84827">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="5db1ea41ac0c1edcd3582ab4cb5a3dce">
+  <resource identifier="external:${gimp_data_dir}/palettes/Default.gpl//Default" checksum="b3d18e09bd18816d3ac3474ce42f1e14">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="adcbe9b10ddb2d31e4f10cc9dbad7bf6">
+  <resource identifier="external:${gimp_data_dir}/palettes/Ega.gpl//Ega" checksum="955ec4dda59f40d145f3f835d1f22458">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="3d7e74ef4d196635e1057c6f93887618">
+  <resource identifier="external:${gimp_data_dir}/palettes/Firecode.gpl//Firecode" checksum="267e26628be1bc6dd00dd983203c8d46">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="198e9162ead593bb5e8bb546fa2c40b1">
+  <resource identifier="external:${gimp_data_dir}/palettes/Gold.gpl//Gold" checksum="89a5df31b12493f9cf66f7d811b1a03b">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="b7719026848a488d6f03480cc33576b0">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grayblue.gpl//Grayblue" checksum="8d996456d8e8ccb9c6e24debd8e8675f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="05e9e44b40d45a247bf2713fa86ec1c5">
+  <resource identifier="external:${gimp_data_dir}/palettes/Grays.gpl//Grays" checksum="705799a8e7a9ec77c0b6454628394926">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="0bd990f7f87452c2483c3d50523f4e30">
+  <resource identifier="external:${gimp_data_dir}/palettes/GrayViolet.gpl//GrayViolet" checksum="1aa75d1cdf981b9430fe0bebfebf2b27">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="226bfae74f3403faaaa608aa1a0d2cb0">
+  <resource identifier="external:${gimp_data_dir}/palettes/Greens.gpl//Greens" checksum="202292d09f12cab3b2cd19fcd8df4a06">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="827279d4d0aee5f86111fe327b132870">
+  <resource identifier="external:${gimp_data_dir}/palettes/Hilite.gpl//Hilite" checksum="7888e21dc1e4e0d515b4495da6c40256">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="3a2947b67993725f26f2292336b9a69e">
+  <resource identifier="external:${gimp_data_dir}/palettes/Khaki.gpl//Khaki" checksum="2aa2c307fa3032e762fcc52e79734687">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="69e9a3a8bead1df645889a8f21334410">
+  <resource identifier="external:${gimp_data_dir}/palettes/Lights.gpl//Lights" checksum="f3805e4255f374af85c18d84b49e81af">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="0d5e248b6d64640fc667ee88545681ec">
+  <resource identifier="external:${gimp_data_dir}/palettes/Muted.gpl//Muted" checksum="0f8dc7ab6811605fca888647f9e49c90">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="c6de1980389710c1d3123958caac7a4b">
+  <resource identifier="external:${gimp_data_dir}/palettes/Named_Colors.gpl//Named Colors" checksum="c24741c7c8da43c8844ae4c5272f0cb9">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="2e7c18b35834824193bcbcd3dd37de4b">
+  <resource identifier="external:${gimp_data_dir}/palettes/News3.gpl//News3" checksum="cd0b4898d5cc84c987c0c305a6933e23">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="4301029fddc26b2fcd5e1bdc5deaeb2f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Op2.gpl//Op2" checksum="c5de9699874b0348054222cda2c3d77a">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="e82f0cf99de5232e3d9261a27cbf100c">
+  <resource identifier="external:${gimp_data_dir}/palettes/Paintjet.gpl//Paintjet" checksum="7280aa79f7819095f0a10832cd3340ac">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="7b8f5847e3dc840b276feaaea5fa788d">
+  <resource identifier="external:${gimp_data_dir}/palettes/Pastels.gpl//Pastels" checksum="c33a6c1145024dd40dc702b63019c3df">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="c2363aaf7172d184e6773f0440146c7e">
+  <resource identifier="external:${gimp_data_dir}/palettes/Plasma.gpl//Plasma" checksum="2eaae1e5c38ca7d1c55cb7a6462f6f1f">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="a9760d46f63c3817e1e5229f3bcf07c3">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds.gpl//Reds" checksum="f4f99a341839695487056a77844ce2ec">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="36df86671feff60528f0ba2a65f296cd">
+  <resource identifier="external:${gimp_data_dir}/palettes/Reds_And_Purples.gpl//Reds And Purples" checksum="7c792320f8ba5796122d7dc3e52e6518">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="0cdcd02065c4600bdefd42f8e3e6f629">
+  <resource identifier="external:${gimp_data_dir}/palettes/Royal.gpl//Royal" checksum="e06661540431f0a48cf1a23932b06260">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="a312aa1400b7ea57f2918b9fdc48823f">
+  <resource identifier="external:${gimp_data_dir}/palettes/Tango.gpl//Tango Icon Theme" checksum="8dfe0a01618b176720dd36546e4ee154">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="464497b8cd4a4881f753e49fca64bfe7">
+  <resource identifier="external:${gimp_data_dir}/palettes/Topographic.gpl//Topographic" checksum="2cc69b0cc960a75d230d73c28113f051">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="2f06c59376d00e576d7c5df7e345fd14">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone.gpl//Visibone" checksum="f1d2b75e80ccf146b463bbc424e2de64">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="3c748407168c3a871991db0b75ca59ab">
+  <resource identifier="external:${gimp_data_dir}/palettes/Visibone_2.gpl//Visibone 2" checksum="dd79ca8cf07195c19554e596977209e1">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="90b6b2aed630ebd97aa8f55c8fb3c4f1">
+  <resource identifier="external:${gimp_data_dir}/palettes/Volcano.gpl//Volcano" checksum="086b6a136fa1e57c5813be6c73602900">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="55736c554092506b600aaafdf2c4cbf0">
+  <resource identifier="external:${gimp_data_dir}/palettes/Warm_Colors.gpl//Warm Colors" checksum="7ac2b9f9c0b5d7d68a10a6576bc14648">
   </resource>
 
-  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="4eb9ac0ebd2bbad22b65c7f7046e4dd9">
+  <resource identifier="external:${gimp_data_dir}/palettes/Web.gpl//Web" checksum="336d7d4525cdcf15863277720e6b82cb">
   </resource>
 
   <resource identifier="internal:gimp-font-standard-alias: Monospace//Monospace" checksum="(null)">
@@ -1459,436 +1459,112 @@
   <resource identifier="external:/usr/share/fonts/google-carlito-fonts/Carlito-Regular.ttf//Carlito Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code Bold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Bold.ttf//CaskaydiaCove Nerd Font Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-Bold.ttf//Cascadia Code Bold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf//CaskaydiaCove Nerd Font Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code Bold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLight.ttf//CaskaydiaCove Nerd Font ExtraLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-BoldItalic.ttf//Cascadia Code Bold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf//CaskaydiaCove Nerd Font ExtraLight Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code ExtraLight" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Italic.ttf//CaskaydiaCove Nerd Font Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-ExtraLight.ttf//Cascadia Code ExtraLight" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Light.ttf//CaskaydiaCove Nerd Font Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code ExtraLight Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-LightItalic.ttf//CaskaydiaCove Nerd Font Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-ExtraLightItalic.ttf//Cascadia Code ExtraLight Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Bold.ttf//CaskaydiaCove Nerd Font Mono Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-BoldItalic.ttf//CaskaydiaCove Nerd Font Mono Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-Italic.ttf//Cascadia Code Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLight.ttf//CaskaydiaCove Nerd Font Mono ExtraLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code Light" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLightItalic.ttf//CaskaydiaCove Nerd Font Mono ExtraLight Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-Light.ttf//Cascadia Code Light" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Italic.ttf//CaskaydiaCove Nerd Font Mono Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-LightItalic.ttf//Cascadia Code Light Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Light.ttf//CaskaydiaCove Nerd Font Mono Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code Light Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-LightItalic.ttf//CaskaydiaCove Nerd Font Mono Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-Bold.ttf//Cascadia Code NF Bold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-Regular.ttf//CaskaydiaCove Nerd Font Mono Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF Bold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBold.ttf//CaskaydiaCove Nerd Font Mono SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-BoldItalic.ttf//Cascadia Code NF Bold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf//CaskaydiaCove Nerd Font Mono SemiBold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF Bold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLight.ttf//CaskaydiaCove Nerd Font Mono SemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-ExtraLight.ttf//Cascadia Code NF ExtraLight" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLightItalic.ttf//CaskaydiaCove Nerd Font Mono SemiLight Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF ExtraLight" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Bold.ttf//CaskaydiaCove Nerd Font Propo Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-ExtraLightItalic.ttf//Cascadia Code NF ExtraLight Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-BoldItalic.ttf//CaskaydiaCove Nerd Font Propo Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF ExtraLight Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLight.ttf//CaskaydiaCove Nerd Font Propo ExtraLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLightItalic.ttf//CaskaydiaCove Nerd Font Propo ExtraLight Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-Italic.ttf//Cascadia Code NF Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Italic.ttf//CaskaydiaCove Nerd Font Propo Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF Light" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Light.ttf//CaskaydiaCove Nerd Font Propo Light" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-Light.ttf//Cascadia Code NF Light" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-LightItalic.ttf//CaskaydiaCove Nerd Font Propo Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-LightItalic.ttf//Cascadia Code NF Light Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-Regular.ttf//CaskaydiaCove Nerd Font Propo Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF Light Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBold.ttf//CaskaydiaCove Nerd Font Propo SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-Regular.ttf//Cascadia Code NF Regular" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf//CaskaydiaCove Nerd Font Propo SemiBold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF Regular" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLight.ttf//CaskaydiaCove Nerd Font Propo SemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF SemiBold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf//CaskaydiaCove Nerd Font Propo SemiLight Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-SemiBold.ttf//Cascadia Code NF SemiBold" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf//CaskaydiaCove Nerd Font Regular" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-SemiBoldItalic.ttf//Cascadia Code NF SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiBold.ttf//CaskaydiaCove Nerd Font SemiBold" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF SemiBold Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiBoldItalic.ttf//CaskaydiaCove Nerd Font SemiBold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-SemiLight.ttf//Cascadia Code NF SemiLight" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiLight.ttf//CaskaydiaCove Nerd Font SemiLight" checksum="(null)">
   </resource>
 
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNF.ttf//Cascadia Code NF SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodeNF-SemiLightItalic.ttf//Cascadia Code NF SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeNFItalic.ttf//Cascadia Code NF SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-Bold.ttf//Cascadia Code PL Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-BoldItalic.ttf//Cascadia Code PL Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-ExtraLight.ttf//Cascadia Code PL ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-ExtraLightItalic.ttf//Cascadia Code PL ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-Italic.ttf//Cascadia Code PL Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-Light.ttf//Cascadia Code PL Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-LightItalic.ttf//Cascadia Code PL Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-Regular.ttf//Cascadia Code PL Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-SemiBold.ttf//Cascadia Code PL SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-SemiBoldItalic.ttf//Cascadia Code PL SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-SemiLight.ttf//Cascadia Code PL SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePL.ttf//Cascadia Code PL SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCodePL-SemiLightItalic.ttf//Cascadia Code PL SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodePLItalic.ttf//Cascadia Code PL SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-Regular.ttf//Cascadia Code Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-SemiBold.ttf//Cascadia Code SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-SemiBoldItalic.ttf//Cascadia Code SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-SemiLight.ttf//Cascadia Code SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCode.ttf//Cascadia Code SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaCode-SemiLightItalic.ttf//Cascadia Code SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaCodeItalic.ttf//Cascadia Code SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-Bold.ttf//Cascadia Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-BoldItalic.ttf//Cascadia Mono Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-ExtraLight.ttf//Cascadia Mono ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-ExtraLightItalic.ttf//Cascadia Mono ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-Italic.ttf//Cascadia Mono Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-Light.ttf//Cascadia Mono Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-LightItalic.ttf//Cascadia Mono Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-Bold.ttf//Cascadia Mono NF Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-BoldItalic.ttf//Cascadia Mono NF Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-ExtraLight.ttf//Cascadia Mono NF ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-ExtraLightItalic.ttf//Cascadia Mono NF ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-Italic.ttf//Cascadia Mono NF Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-Light.ttf//Cascadia Mono NF Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-LightItalic.ttf//Cascadia Mono NF Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-Regular.ttf//Cascadia Mono NF Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-SemiBold.ttf//Cascadia Mono NF SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-SemiBoldItalic.ttf//Cascadia Mono NF SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNF.ttf//Cascadia Mono NF SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-SemiLight.ttf//Cascadia Mono NF SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoNF-SemiLightItalic.ttf//Cascadia Mono NF SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoNFItalic.ttf//Cascadia Mono NF SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-Bold.ttf//Cascadia Mono PL Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-BoldItalic.ttf//Cascadia Mono PL Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-ExtraLight.ttf//Cascadia Mono PL ExtraLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-ExtraLightItalic.ttf//Cascadia Mono PL ExtraLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-Italic.ttf//Cascadia Mono PL Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-Light.ttf//Cascadia Mono PL Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-LightItalic.ttf//Cascadia Mono PL Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-Regular.ttf//Cascadia Mono PL Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-SemiBold.ttf//Cascadia Mono PL SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-SemiBoldItalic.ttf//Cascadia Mono PL SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPL.ttf//Cascadia Mono PL SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-SemiLight.ttf//Cascadia Mono PL SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoPLItalic.ttf//Cascadia Mono PL SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMonoPL-SemiLightItalic.ttf//Cascadia Mono PL SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-Regular.ttf//Cascadia Mono Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono Regular" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-SemiBold.ttf//Cascadia Mono SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono SemiBold" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-SemiBoldItalic.ttf//Cascadia Mono SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono SemiBold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-SemiLight.ttf//Cascadia Mono SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMono.ttf//Cascadia Mono SemiLight" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CascadiaMonoItalic.ttf//Cascadia Mono SemiLight Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/static/CascadiaMono-SemiLightItalic.ttf//Cascadia Mono SemiLight Italic" checksum="(null)">
+  <resource identifier="external:/home/jade/.local/share/fonts/CascadiaCode/CaskaydiaCoveNerdFont-SemiLightItalic.ttf//CaskaydiaCove Nerd Font SemiLight Italic" checksum="(null)">
   </resource>
 
   <resource identifier="external:/usr/share/fonts/aajohan-comfortaa-fonts/Comfortaa-Bold.otf//Comfortaa Bold" checksum="(null)">
