@@ -9,6 +9,7 @@ timeout = 10
 
 [placeholders]
 # placeholders for input and empty list, key is the providers name, so f.e. "desktopapplications" or "menus:other"
+"default" = { "input" = " Search", list = "No Results" }
 "desktopapplications" = { input = " Applications", list = "No Results" }
 "clipboard" = { input = " Clipboard", list = "Empty" }
 "files" = { input = " Files", list = "NOTHING!!!" }
@@ -18,11 +19,3 @@ timeout = 10
 "unicode" = { input = "󰦨 Unicode Characters", list = "-" }
 "provierlist" = { input = "󰍜 Providers", list = "-" }
 "dmenu" = { input = "󰍜 Menu", list = "-" }
-
-[providers.desktopapplications]
-default = "start"
-start = "Return"
-start_keep_open = "ctrl Return"
-remove_history = "ctrl BackSpace"
-toggle_pin = "ctrl p"
-placeholder = { input = " Applications", list = "No Results" }

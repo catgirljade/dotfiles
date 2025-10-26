@@ -1,8 +1,14 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-b9514a45-e4d5-4aa0-a993-8766739e5f09=none,none,Switch to activity "Default"
+switch-to-activity-09ccea01-d39e-47a4-b286-f360b6ecb7a7=Meta+5,none,Switch to activity ""
+switch-to-activity-6aad60eb-f879-442a-bd8f-6711107231c6=Meta+4,none,Switch to activity ""
+switch-to-activity-840f8c80-2f69-494b-8dcb-a71e4098cb33=Meta+6,none,Switch to activity "6"
+switch-to-activity-aa93e17e-0e45-4474-b3e1-9d1188303c8e=Meta+3,none,Switch to activity ""
+switch-to-activity-b9514a45-e4d5-4aa0-a993-8766739e5f09=Meta+1,none,Switch to activity "Default"
+switch-to-activity-f4a6a665-1a5d-477a-9e8e-00d554157b2f=Meta+2,none,Switch to activity "2"
 
 [KDE Keyboard Layout Switcher]
+Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
@@ -47,7 +53,7 @@ Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
 Move Tablet to Next Output=none,none,Move the tablet to the next output
-MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Centre
+MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
 MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
@@ -121,12 +127,12 @@ Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+PgUp,Meta+PgUp,Maximise Window
-Window Maximize Horizontal=none,,Maximise Window Horizontally
-Window Maximize Vertical=none,,Maximise Window Vertically
-Window Minimize=Meta+PgDown,Meta+PgDown,Minimise Window
+Window Maximize=Meta+PgUp,Meta+PgUp,Maximize Window
+Window Maximize Horizontal=none,,Maximize Window Horizontally
+Window Maximize Vertical=none,,Maximize Window Vertically
+Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
 Window Move=none,,Move Window
-Window Move Center=none,,Move Window to the Centre
+Window Move Center=none,,Move Window to the Center
 Window No Border=none,,Toggle Window Titlebar and Frame
 Window On All Desktops=none,,Keep Window on All Desktops
 Window One Desktop Down=Meta+Ctrl+Shift+Down,Meta+Ctrl+Shift+Down,Window One Desktop Down
@@ -137,7 +143,7 @@ Window One Screen Down=none,,Move Window One Screen Down
 Window One Screen Up=none,,Move Window One Screen Up
 Window One Screen to the Left=none,,Move Window One Screen to the Left
 Window One Screen to the Right=none,,Move Window One Screen to the Right
-Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
+Window Operations Menu=Alt+F3,Alt+F3,Window Menu
 Window Pack Down=none,,Move Window Down
 Window Pack Left=none,,Move Window Left
 Window Pack Right=none,,Move Window Right
@@ -152,7 +158,7 @@ Window Quick Tile Top Left=none,,Quick Tile Window to the Top Left
 Window Quick Tile Top Right=none,,Quick Tile Window to the Top Right
 Window Raise=none,,Raise Window
 Window Resize=none,,Resize Window
-Window Shade=none,,Shade Window
+Window Shade=none,none,Shade Window
 Window Shrink Horizontal=none,,Shrink Window Horizontally
 Window Shrink Vertical=none,,Shrink Window Vertically
 Window to Desktop 1=none,,Window to Desktop 1
@@ -221,18 +227,20 @@ _k_friendly_name=Power Management
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
+Slideshow Wallpaper Next Image=,,Next Wallpaper Image
 _k_friendly_name=plasmashell
-activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
-activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
+activate application launcher=Alt+F1,Meta\tAlt+F1,Activate Application Launcher
+activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,,Activate Task Manager Entry 10
-activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
-activate task manager entry 3=Meta+3,Meta+3,Activate Task Manager Entry 3
-activate task manager entry 4=Meta+4,Meta+4,Activate Task Manager Entry 4
-activate task manager entry 5=Meta+5,Meta+5,Activate Task Manager Entry 5
-activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
-activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
-activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
-activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
+activate task manager entry 3=none,Meta+3,Activate Task Manager Entry 3
+activate task manager entry 4=none,Meta+4,Activate Task Manager Entry 4
+activate task manager entry 5=none,Meta+5,Activate Task Manager Entry 5
+activate task manager entry 6=none,Meta+6,Activate Task Manager Entry 6
+activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
+activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
+activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
+activate widget 74=,none,Activate Activity Bar Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
@@ -246,7 +254,24 @@ repeat_action=none,,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Show Clipboard Items at Mouse Position
-stop current activity=Meta+S,Meta+S,Stop Current Activity
+stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
+
+[services][kitty.desktop]
+_launch=Meta+Return
+
+[services][org.kde.krunner.desktop]
+_launch=Search\tMeta
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
+Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1
+Map to screen 2=Meta+Ctrl+2,Meta+Ctrl+2,Map to screen 2
+Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Next profile
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
+Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Toggle between all screens
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+_k_friendly_name=Wacom Tablet

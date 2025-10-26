@@ -23,10 +23,10 @@ edit = [
 	{ run = 'code "$@"', orphan = true },
 ]
 play = [
-	{ run = 'vlc "$@"' },
+	{ run = 'mpv "$@"' },
 	{ run = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info" },
 ]
-extract = [{ run = 'unar -d "$@"', desc = "Extract here", for = "unix" }]
+extract = [{ run = '7z x "$@"', desc = "Extract here", for = "unix" }]
 open = [{ run = 'xdg-open "$@"', desc = "Open" }]
 
 [open]

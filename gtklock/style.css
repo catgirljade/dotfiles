@@ -2,9 +2,12 @@
 	font-family: "Caskaydia Cove Nerd Font";
 }
 
-#window {
+window {
 	background-repeat: no-repeat;
 	background-position: center;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("/home/jade/.config/wallpaper");
 }
 
 /* #input-label { */
@@ -15,44 +18,64 @@
 
 #input-field {
 	font-family: "Noto Sans";
-	font-size: 24px;
-	padding: 12px 20px;
+	font-size: 20px;
+	padding: 10px 20px;
 	border-radius: 500px;
+	box-shadow: 0px 4px 4px black;
+}
+
+#warning-label,
+#error-label {
+	font-size: 20px;
+	font-weight: 900;
+	text-shadow: 2px 2px 2px black;
 }
 
 #warning-label {
-	font-size: 18px;
-	color: #c3674a;
+	color: #d37a4a;
 }
 
 #error-label {
-	font-size: 22px;
-	font-weight: 900;
-	color: #b84f59;
+	color: #df4232;
 }
 
 #unlock-button {
-	padding: 8px 16px;
+	padding: 6px 12px;
 	border-radius: 100px;
+	box-shadow: 0px 4px 4px black;
 }
 
 #unlock-button label {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 #clock-label,
 #date-label {
 	font-family: "JetbrainsMono Nerd Font";
+	text-shadow: 4px 4px 4px black;
 }
 
 #clock-label {
 	font-size: 128px;
 	font-weight: 900;
-	color: @theme_bg_color;
 }
 
 #date-label {
 	font-size: 64px;
 	font-weight: 600;
-	color: @theme_bg_color;
+}
+
+#reboot-button,
+#poweroff-button,
+#logout-button,
+#userswitch-button,
+#suspend-button {
+	padding: 12px;
+}
+
+#user-name {
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 4px 4px 2px black;
+	margin: 0 0 10px 0;
 }

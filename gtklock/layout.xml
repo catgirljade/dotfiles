@@ -103,7 +103,7 @@
                 <property name="halign">center</property>
                 <property name="width-request">350</property>
                 <property name="orientation">vertical</property>
-                <property name="spacing">12</property>
+                <property name="spacing">4</property>
                 <child>
                   <object class="GtkLabel" id="error-label">
                     <property name="name">error-label</property>

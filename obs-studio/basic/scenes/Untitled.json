@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520159233,
+        "prev_ver": 536870913,
         "name": "Desktop Audio",
         "uuid": "1b7323e9-2cc2-4960-8a3d-829c8b1ebcbb",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520159233,
+        "prev_ver": 536870913,
         "name": "Mic/Aux",
         "uuid": "d79301b8-d393-4a69-ba6a-e1b08549e66f",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 520159233,
+            "prev_ver": 536870913,
             "name": "Scene",
             "uuid": "98d7a000-39e5-4a84-99b0-d47be0dd2bb8",
             "id": "scene",
@@ -105,7 +105,7 @@
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.6000000238418579,
+                            "x": -1.600000023841858,
                             "y": -1.0
                         },
                         "scale": {
@@ -113,8 +113,8 @@
                             "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 0.67500001192092896,
-                            "y": 0.67500001192092896
+                            "x": 0.675000011920929,
+                            "y": 0.675000011920929
                         },
                         "bounds": {
                             "x": 0.0,
@@ -160,7 +160,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159233,
+            "prev_ver": 536870913,
             "name": "Screen Capture (PipeWire)",
             "uuid": "9a54dcae-3f52-4626-88a7-10bd454f0ccf",
             "id": "pipewire-screen-capture-source",

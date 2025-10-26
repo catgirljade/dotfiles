@@ -10,7 +10,7 @@ IntensityAmount=0.1
 IntensityEffect=0
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=true
+ChangeSelectionColor=false
 Color=112,111,110
 ColorAmount=0.025
 ColorEffect=2
@@ -21,8 +21,8 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=62,62,62
-BackgroundNormal=73,73,73
+BackgroundAlternate=65,70,84
+BackgroundNormal=65,70,84
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
 ForegroundActive=255,128,224
@@ -35,8 +35,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:Selection]
-BackgroundAlternate=115,115,115
-BackgroundNormal=115,115,115
+BackgroundAlternate=82,148,226
+BackgroundNormal=82,148,226
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
 ForegroundActive=255,128,224
@@ -63,8 +63,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:View]
-BackgroundAlternate=56,56,56
-BackgroundNormal=46,46,46
+BackgroundAlternate=60,67,79
+BackgroundNormal=64,69,82
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
 ForegroundActive=255,128,224
@@ -77,8 +77,8 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [Colors:Window]
-BackgroundAlternate=49,49,49
-BackgroundNormal=61,61,62
+BackgroundAlternate=56,60,74
+BackgroundNormal=56,60,74
 DecorationFocus=170,170,170
 DecorationHover=150,150,150
 ForegroundActive=255,128,224
@@ -91,19 +91,17 @@ ForegroundPositive=128,255,128
 ForegroundVisited=255,102,102
 
 [General]
-ColorScheme=Kvantum
+ColorScheme=KvArcDark
 ColorSchemeHash=d6c2df0966578859e7aa68d5591d7e3f0cfa19bc
 
-[Icons]
-Theme=Tela-dark
-
 [KDE]
-widgetStyle=qt6ct-style
+LookAndFeelPackage=com.github.vinceliuice.Layan
+widgetStyle=kvantum
 
 [WM]
-activeBackground=61,61,62
-activeBlend=61,61,62
+activeBackground=47,52,63
+activeBlend=47,52,63
 activeForeground=255,255,255
-inactiveBackground=61,61,62
-inactiveBlend=61,61,62
-inactiveForeground=155,155,155
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=200,200,200

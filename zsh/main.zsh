@@ -1,11 +1,12 @@
 export confd=$HOME/.config/zsh
 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
 source "$confd/keybindings.zsh"
 source "$confd/history.zsh"
 source "$confd/prompt.zsh"
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 export EDITOR="$(eval which nvim)"
 export BAT_THEME="base16"
@@ -34,3 +35,4 @@ if command -v "bat" &>/dev/null; then
     alias -g -- --help='--help 2>&1 | bat --language=help --style=plain --paging=never --color always'
     alias cat='bat --style=plain --paging=never --color auto'
 fi
+
