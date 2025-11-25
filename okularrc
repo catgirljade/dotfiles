@@ -1,0 +1,14 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Recent Files]
+File1[$e]=$HOME/.local/share/PrismLauncher/instances/Meownumenta/minecraft/resourcepacks/VanillaEvolved_1.20.0/assets/minecraft/particles/large_smoke.json
+File2[$e]=$HOME/.local/share/PrismLauncher/instances/Meownumenta/minecraft/screenshots/2025-10-08_19.40.42.png
+File3[$e]=/run/user/1000/gvfs/sftp:host=mepic,user=epic/home/epic/data/datapacks/base/pack.mcmeta
+Name1[$e]=large_smoke.json
+Name2[$e]=2025-10-08_19.40.42.png
+Name3[$e]=pack.mcmeta

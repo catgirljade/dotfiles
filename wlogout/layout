@@ -1,0 +1,36 @@
+{
+    "label": "shutdown",
+    "action": "systemctl poweroff",
+    "text": "Shutdown",
+    "keybind": "s"
+}
+
+{
+    "label": "reboot",
+    "action": "systemctl reboot",
+    "text": "Reboot",
+    "keybind": "r"
+}
+
+{
+    "label": "logout",
+    "action": "mmsg -q",
+    "text": "Logout",
+    "keybind": "e"
+}
+
+{
+    "label": "lock",
+    "action": "hyprlock",
+    "text": "Lock",
+    "keybind": "l"
+}
+
+{
+    "label": "suspend",
+    "action": "lockscreen.sh & disown && systemctl suspend",
+    "text": "Suspend",
+    "keybind": "u"
+}
+
+

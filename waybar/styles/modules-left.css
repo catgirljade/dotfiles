@@ -1,0 +1,57 @@
+/* theme switcher */
+
+#custom-logo {
+	padding-left: 10px;
+}
+
+#custom-user {
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+/* workspaces */
+
+#custom-left_div.1,
+#custom-right_div.1 {
+	color: @workspaces;
+}
+#workspaces {
+	padding: 0 1px;
+	background-color: @workspaces;
+}
+
+#workspaces button {
+	transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+	background-color: @surface1;
+}
+
+#workspaces button label {
+	font-family: "0xProto Nerd Font Mono";
+	font-size: 26px;
+}
+
+#workspaces button label {
+	transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active label {
+	/* font-size: 16px; */
+	color: @accent;
+}
+
+/* window title */
+
+#window.name {
+	margin-left: 12px;
+}
+
+#window label {
+	font-size: 16px;
+}
+
+#window.layout {
+	margin-left: 0px;
+}

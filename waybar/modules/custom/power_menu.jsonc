@@ -1,0 +1,7 @@
+{
+	"custom/power_menu": {
+		"format": "⏻",
+		"on-click": "/home/jade/.config/wlogout/wlogout.sh",
+		"tooltip-format": "Power Menu"
+	}
+}

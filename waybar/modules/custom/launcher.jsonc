@@ -1,0 +1,7 @@
+{
+	"custom/launcher": {
+		"format": "",
+		"on-click": "walker --provider desktopapplications",
+		"tooltip": false
+	}
+}

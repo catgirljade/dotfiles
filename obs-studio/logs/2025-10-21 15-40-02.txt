@@ -1,0 +1,197 @@
+15:40:02.323: Platform: Wayland
+15:40:02.323: CPU Name: Intel(R) Core(TM) i9-14900HX
+15:40:02.323: CPU Speed: 938.459MHz
+15:40:02.323: Physical Cores: 24, Logical Cores: 32
+15:40:02.323: Physical Memory: 31866MB Total, 24594MB Free
+15:40:02.323: Kernel Version: Linux 6.16.12-200.fc42.x86_64
+15:40:02.323: Distribution: "Fedora Linux" 42
+15:40:02.323: Desktop Environment: wlroots ()
+15:40:02.323: Session Type: wayland
+15:40:02.324: Current Date/Time: 2025-10-21, 15:40:02
+15:40:02.324: Browser Hardware Acceleration: true
+15:40:02.324: Qt Version: 6.9.2 (runtime), 6.9.1 (compiled)
+15:40:02.324: Portable mode: false
+15:40:02.344: OBS 31.1.1 (linux)
+15:40:02.344: ---------------------------------
+15:40:02.348: ---------------------------------
+15:40:02.348: audio settings reset:
+15:40:02.348: 	samples per sec: 48000
+15:40:02.348: 	speakers:        2
+15:40:02.348: 	max buffering:   960 milliseconds
+15:40:02.348: 	buffering type:  dynamically increasing
+15:40:02.352: ---------------------------------
+15:40:02.352: Initializing OpenGL...
+15:40:02.352: Using EGL/Wayland
+15:40:02.386: Initialized EGL 1.5
+15:40:02.436: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+15:40:02.436: OpenGL loaded successfully, version 3.3.0 NVIDIA 580.95.05, shading language 3.30 NVIDIA via Cg compiler
+15:40:02.455: ---------------------------------
+15:40:02.455: video settings reset:
+15:40:02.455: 	base resolution:   1920x1080
+15:40:02.455: 	output resolution: 1280x720
+15:40:02.455: 	downscale filter:  Bicubic
+15:40:02.455: 	fps:               30/1
+15:40:02.455: 	format:            NV12
+15:40:02.455: 	YUV mode:          Rec. 709/Partial
+15:40:02.455: NV12 texture support enabled
+15:40:02.455: P010 texture support not available
+15:40:02.455: Audio monitoring device:
+15:40:02.455: 	name: Default
+15:40:02.455: 	id: default
+15:40:02.500: ---------------------------------
+15:40:02.511: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:40:02.530: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:40:02.544: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:40:02.544: Failed to initialize module 'decklink.so'
+15:40:02.572: Failed to load 'en-GB' text for module: 'droidcam-obs.so'
+15:40:02.573: [DroidCamOBS] Source: "dummy_droidcam_source" - 234
+15:40:02.573: [DroidCamOBS] trying 'adb'
+15:40:02.576: [DroidCamOBS] "adb version" exit value 2
+15:40:02.576: [DroidCamOBS] trying '/usr/local/bin/adb'
+15:40:02.576: [DroidCamOBS] trying '/usr/bin/adb'
+15:40:02.576: [DroidCamOBS] trying '/bin/adb'
+15:40:02.576: [DroidCamOBS] adb not found
+15:40:02.576: [DroidCamOBS] PATH=/home/jade/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+15:40:02.577: [DroidCamOBS] usbmuxd not found, iOS USB support not available
+15:40:02.577: [DroidCamOBS] activated=0, deactivateWNS=1, is_showing=0, enable_audio=0
+15:40:02.577: [DroidCamOBS] video_format=avc video_resolution=640x480
+15:40:02.577: [DroidCamOBS] source_properties: activated=0, uhd_unlock=0
+15:40:02.577: droidcam-obs module loaded (fedora)
+15:40:02.721: [pipewire] No capture sources available
+15:40:02.764: v4l2loopback not installed, virtual camera not registered
+15:40:02.842: [obs-browser]: Version 2.25.3
+15:40:02.842: [obs-browser]: CEF Version 140.0.7339.207 (runtime), 137.0.17+gf354b0e+chromium-137.0.7151.103 (compiled)
+15:40:02.842: [obs-browser]: Blacklisted driver detected, disabling browser source hardware acceleration.
+15:40:02.985: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+15:40:03.297: VAAPI: API version 1.22
+15:40:03.351: FFmpeg VAAPI H264 encoding supported
+15:40:03.572: FFmpeg VAAPI AV1 encoding supported
+15:40:03.793: FFmpeg VAAPI HEVC encoding supported
+15:40:04.256: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: true
+15:40:05.044: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.2 | RPC Version: 1)
+15:40:05.044: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.1 | Qt version (run-time): 6.9.2
+15:40:05.044: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+15:40:05.044: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+15:40:05.048: [obs-websocket] [obs_module_load] Module loaded.
+15:40:05.130: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+15:40:05.130: ---------------------------------
+15:40:05.130:   Loaded Modules:
+15:40:05.130:     vlc-video.so
+15:40:05.130:     text-freetype2.so
+15:40:05.130:     rtmp-services.so
+15:40:05.130:     obs-x264.so
+15:40:05.130:     obs-websocket.so
+15:40:05.130:     obs-webrtc.so
+15:40:05.130:     obs-webkitgtk.so
+15:40:05.130:     obs-vst.so
+15:40:05.130:     obs-transitions.so
+15:40:05.130:     obs-qsv11.so
+15:40:05.130:     obs-outputs.so
+15:40:05.130:     obs-nvenc.so
+15:40:05.130:     obs-libfdk.so
+15:40:05.130:     obs-filters.so
+15:40:05.130:     obs-ffmpeg.so
+15:40:05.130:     obs-browser.so
+15:40:05.130:     linux-v4l2.so
+15:40:05.130:     linux-pulseaudio.so
+15:40:05.130:     linux-pipewire.so
+15:40:05.131:     linux-jack.so
+15:40:05.131:     linux-capture.so
+15:40:05.131:     linux-alsa.so
+15:40:05.131:     image-source.so
+15:40:05.131:     frontend-tools.so
+15:40:05.131:     droidcam-obs.so
+15:40:05.131:     decklink-output-ui.so
+15:40:05.131:     decklink-captions.so
+15:40:05.131: ---------------------------------
+15:40:05.131: ---------------------------------
+15:40:05.131: Available Encoders:
+15:40:05.131:   Video Encoders:
+15:40:05.131: 	- ffmpeg_openh264 (OpenH264)
+15:40:05.131: 	- ffmpeg_svt_av1 (SVT-AV1)
+15:40:05.131: 	- ffmpeg_aom_av1 (AOM AV1)
+15:40:05.131: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+15:40:05.131: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+15:40:05.131: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+15:40:05.131: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+15:40:05.131: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+15:40:05.131: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+15:40:05.131: 	- obs_x264 (x264)
+15:40:05.131:   Audio Encoders:
+15:40:05.131: 	- ffmpeg_aac (FFmpeg AAC)
+15:40:05.131: 	- ffmpeg_opus (FFmpeg Opus)
+15:40:05.131: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+15:40:05.131: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+15:40:05.131: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+15:40:05.131: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+15:40:05.131: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+15:40:05.131: 	- libfdk_aac (libfdk AAC)
+15:40:05.131: ==== Startup complete ===============================================
+15:40:05.213: All scene data cleared
+15:40:05.213: ------------------------------------------------
+15:40:05.219: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+15:40:05.219: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:40:05.219: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+15:40:05.219: [Loaded global audio device]: 'Desktop Audio'
+15:40:05.219: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.9) 15.0.0'
+15:40:05.219: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:40:05.220: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+15:40:05.220: [Loaded global audio device]: 'Mic/Aux'
+15:40:05.221: Switched to scene 'Scene'
+15:40:05.221: ------------------------------------------------
+15:40:05.221: Loaded scenes:
+15:40:05.221: - scene 'Scene':
+15:40:05.221: ------------------------------------------------
+15:40:05.297: [DroidCamOBS] using bindIP '(null)'
+15:40:05.343: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:05.343: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:05.783: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+15:40:05.783: 
+15:40:13.293: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:13.293: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:16.272: [Media Source 'Media Source']: settings:
+15:40:16.272: 	input:                   
+15:40:16.272: 	input_format:            (null)
+15:40:16.272: 	speed:                   100
+15:40:16.272: 	is_looping:              no
+15:40:16.272: 	is_linear_alpha:         no
+15:40:16.272: 	is_hw_decoding:          no
+15:40:16.272: 	is_clear_on_media_end:   yes
+15:40:16.272: 	restart_on_activate:     yes
+15:40:16.272: 	close_when_inactive:     no
+15:40:16.272: 	full_decode:             no
+15:40:16.272: 	ffmpeg_options:          
+15:40:16.274: User added source 'Media Source' (ffmpeg_source) to scene 'Scene'
+15:40:16.281: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:16.281: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:20.675: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:20.675: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:21.024: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:21.024: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:23.343: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:23.343: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:24.510: User Removed source 'Media Source' (ffmpeg_source) from scene 'Scene'
+15:40:35.803: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:35.803: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:37.609: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+15:40:37.609: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+15:40:37.612: User added source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Scene'
+15:40:37.620: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:37.620: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:37.625: [camera-portal] Selected resolution for ''
+15:40:37.625: [camera-portal] Selected format for ''
+15:40:37.625: [camera-portal] selected camera ''
+15:40:37.677: [camera-portal] Failed to create session, denied or cancelled by user
+15:40:45.850: Configure event with maximized or fullscreen state contains invalid width: 0
+15:40:45.850: Configure event with maximized or fullscreen state contains invalid height: 0
+15:40:48.103: User Removed source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) from scene 'Scene'
+15:41:24.779: Configure event with maximized or fullscreen state contains invalid width: 0
+15:41:24.779: Configure event with maximized or fullscreen state contains invalid height: 0
+15:41:26.193: User added source 'Image' (image_source) to scene 'Scene'
+15:41:26.201: Configure event with maximized or fullscreen state contains invalid width: 0
+15:41:26.201: Configure event with maximized or fullscreen state contains invalid height: 0
+15:41:29.453: Configure event with maximized or fullscreen state contains invalid width: 0
+15:41:29.453: Configure event with maximized or fullscreen state contains invalid height: 0
+15:41:30.349: User Removed source 'Image' (image_source) from scene 'Scene'
+15:41:33.870: Configure event with maximized or fullscreen state contains invalid width: 0
+15:41:33.870: Configure event with maximized or fullscreen state contains invalid height: 0

@@ -1,0 +1,9 @@
+{
+	"dwl/window#name": {
+		"format": "{title} ({app_id})",
+		"max-length": 50,
+		"rewrite": {
+			" \\(\\)": " "
+		}
+	}
+}

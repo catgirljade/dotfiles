@@ -1,0 +1,89 @@
+[[plugin.deps]]
+use = "yazi-rs/plugins:chmod"
+rev = "e95c7b3"
+hash = "1adc12c2b2b025411ab61eb8f0879574"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:diff"
+rev = "e95c7b3"
+hash = "47865a70cade14a0b9b6bc6a54f16bdb"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "e95c7b3"
+hash = "3996fc74044bc44144b323686f887e1"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "e95c7b3"
+hash = "63b6c222bf2103b3023389dde5e2ecfe"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "e95c7b3"
+hash = "e1de3054c0d1a2d8dc6f007eadc0fa31"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:vcs-files"
+rev = "e95c7b3"
+hash = "cc8da55f1deda45ee3787cc97b58ffc9"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "e95c7b3"
+hash = "56fdabc96fc1f4d53c96eb884b02a5be"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-paste"
+rev = "e95c7b3"
+hash = "a8050052e59f3952abe0b3e27a5843de"
+
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "9ef1254"
+hash = "92fbb5483657fa7976cdf4e0104e18e0"
+
+[[plugin.deps]]
+use = "uhs-robert/sshfs"
+rev = "5010171"
+hash = "4a57605c3e788f9913f98c8b43f4b1de"
+
+[[plugin.deps]]
+use = "boydaihungst/restore"
+rev = "dc40509"
+hash = "e7e377f9b1bbaca4a2e5d9ec9709ac4d"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "c264639"
+hash = "e17c11b605d989568a1d1741ca17c584"
+
+[[plugin.deps]]
+use = "TD-Sky/sudo"
+rev = "8148f91"
+hash = "5db5b16dc96e971f0560a31999271065"
+
+[[flavor.deps]]
+use = "yazi-rs/flavors:catppuccin-macchiato"
+rev = "9cd2ac4"
+hash = "bc3478e46ebfc411d611e1ccaf04d26a"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "5f56364"
+hash = "c0bf69ad2c44005892d586e9693993c6"
+
+[[flavor.deps]]
+use = "dangooddd/kanagawa"
+rev = "1f3b3c7"
+hash = "16ea0ff3583131788d57d5f7d34d0f61"
+
+[[flavor.deps]]
+use = "bennyyip/gruvbox-dark"
+rev = "e5e1aef"
+hash = "eb88137cf13a796225254344bf6def2c"
+
+[[flavor.deps]]
+use = "AdithyanA2005/nord"
+rev = "3a791e9"
+hash = "fa7142cda74a50b271ea212356b40b57"

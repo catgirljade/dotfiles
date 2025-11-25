@@ -1,0 +1,89 @@
+/*
+          _                         _
+__      _| | ___   __ _  ___  _   _| |_
+\ \ /\ / / |/ _ \ / _` |/ _ \| | | | __|
+ \ V  V /| | (_) | (_| | (_) | |_| | |_
+  \_/\_/ |_|\___/ \__, |\___/ \__,_|\__|
+                  |___/
+
+by Stephan Raabe (2023)
+-----------------------------------------------------
+*/
+
+@import "colors.css";
+
+/* -----------------------------------------------------
+ * General
+ * ----------------------------------------------------- */
+
+* {
+	font-family: "DejaVu Sans";
+	background-image: none;
+	transition: 20ms;
+	box-shadow: none;
+}
+
+window {
+	background-color: @blur_background;
+	/* background: url("/home/jade/Pictures/wallpapers/misty-boat.jpg"); */
+	background-size: cover;
+	font-size: 16pt;
+}
+
+button {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+	animation: gradient_f 20s ease-in infinite;
+	border: 0px;
+	margin: 30px 0px;
+	border-radius: 20px;
+	transition:
+		all 0.25s cubic-bezier(0.1, 0.9, 0.5, 0.9),
+		box-shadow 0.2s ease-out,
+		background-color 0.2s ease-out;
+	background-color: transparent;
+	outline-style: none;
+}
+
+button:focus {
+	background-size: 45%;
+	margin: 0px 0px;
+	/* background-color: @primary; */
+	/* box-shadow: 0 0 10px @primary; */
+}
+
+/* Adjust the size of the icon or content inside the button */
+button span {
+	font-size: 1.2em; /* Increase the font size */
+}
+
+/*
+-----------------------------------------------------
+Buttons
+-----------------------------------------------------
+*/
+
+#lock {
+	background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+	background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+	background-image: image(url("icons/suspend.png"));
+}
+
+#hibernate {
+	background-image: image(url("icons/hibernate.png"));
+}
+
+#shutdown {
+	background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+	background-image: image(url("icons/reboot.png"));
+}

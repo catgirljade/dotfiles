@@ -1,0 +1,185 @@
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[mgr]
+prepend_keymap = [
+	{ on = "y", run = [
+		'shell -- for path in "$@"; do echo "file://$path"; done | wl-copy -t text/uri-list',
+		"yank",
+	], desc = "Copy" },
+	{ on = "<Enter>", run = "plugin smart-enter" },
+	{ on = "!", for = "unix", run = 'shell "$SHELL" --block', desc = "Open $SHELL here" },
+	{ on = "m", run = "plugin bookmarks save", desc = "Save current position as a bookmark" },
+	{ on = "'", run = "plugin bookmarks jump", desc = "Jump to a bookmark" },
+	{ on = [
+		"b",
+		"d",
+	], run = "plugin bookmarks delete", desc = "Delete a bookmark" },
+	{ on = [
+		"b",
+		"D",
+	], run = "plugin bookmarks delete_all", desc = "Delete all bookmarks" },
+	{ on = [
+		"c",
+		"m",
+	], run = "plugin chmod", desc = "Chmod on selected files" },
+	{ on = [
+		"c",
+		"r",
+	], run = 'shell -- dragon -x -i -T "$1"', desc = "Drag and Drop" },
+
+	{ on = [
+		"M",
+		"s",
+	], run = "plugin mount", desc = "Mount local drives" },
+	# SSH
+	{ on = [
+		"M",
+		"m",
+	], run = "plugin sshfs -- mount --jump", desc = "Mount & jump" },
+	{ on = [
+		"M",
+		"u",
+	], run = "plugin sshfs -- unmount", desc = "Unmount SSHFS" },
+	{ on = [
+		"M",
+		"a",
+	], run = "plugin sshfs -- add", desc = "Add SSH host" },
+	{ on = [
+		"M",
+		"r",
+	], run = "plugin sshfs -- remove", desc = "Remove SSH host" },
+	{ on = [
+		"M",
+		"h",
+	], run = "plugin sshfs -- home", desc = "Go to mount home" },
+	{ on = [
+		"M",
+		"c",
+	], run = "plugin sshfs -- menu", desc = "Open sshfs menu" },
+	{ on = [
+		"g",
+		"m",
+	], run = "plugin sshfs -- jump", desc = "Jump to mount" },
+	{ on = [
+		"u",
+		"u",
+	], run = "plugin restore", desc = "Restore last deleted files/folders" },
+	# This will throw error when there is existed file/folder
+	{ on = "U", run = "plugin restore -- --interactive", desc = "Restore deleted files/folders (Interactive)" },
+	# Or auto overwrite existed file/folder
+	{ on = [
+		"u",
+		"U",
+	], run = "plugin restore -- --interactive --interactive-overwrite", desc = "Restore deleted files/folders (Interactive overwrite)" },
+	{ on = [
+		"g",
+		"i",
+	], run = "plugin lazygit", desc = "Open lazygit" },
+	{ on = "[", run = "plugin whoosh jump_by_key", desc = "Jump bookmark by key" },
+	{ on = "{", run = "plugin whoosh jump_by_fzf", desc = "Jump bookmark by fuzzyfinder" },
+	{ on = [
+		"]",
+		"s",
+	], run = "plugin whoosh save", desc = "Add bookmark (hovered file/directory)" },
+	{ on = [
+		"]",
+		"S",
+	], run = "plugin whoosh save_cwd", desc = "Add bookmark (current directory)" },
+	{ on = [
+		"]",
+		"t",
+	], run = "plugin whoosh save_cwd_temp", desc = "Add temporary bookmark (current directory)" },
+	{ on = [
+		"]",
+		"r",
+	], run = "plugin whoosh rename_by_key", desc = "Rename bookmark by key" },
+	{ on = [
+		"}",
+		"r",
+	], run = "plugin whoosh rename_by_fzf", desc = "Rename bookmark by fuzzyfinder" },
+	{ on = [
+		"R",
+		"p",
+		"p",
+	], run = "plugin sudo -- paste", desc = "sudo paste" },
+
+	# sudo cp/mv --force
+	{ on = [
+		"R",
+		"P",
+	], run = "plugin sudo -- paste --force", desc = "sudo paste" },
+
+	# sudo mv
+	{ on = [
+		"R",
+		"r",
+	], run = "plugin sudo -- rename", desc = "sudo rename" },
+
+	# sudo ln -s (absolute-path)
+	{ on = [
+		"R",
+		"p",
+		"l",
+	], run = "plugin sudo -- link", desc = "sudo link" },
+
+	# sudo ln -s (relative-path)
+	{ on = [
+		"R",
+		"p",
+		"r",
+	], run = "plugin sudo -- link --relative", desc = "sudo link relative path" },
+
+	# sudo ln
+	{ on = [
+		"R",
+		"p",
+		"L",
+	], run = "plugin sudo -- hardlink", desc = "sudo hardlink" },
+
+	# sudo touch/mkdir
+	{ on = [
+		"R",
+		"a",
+	], run = "plugin sudo -- create", desc = "sudo create" },
+
+	# sudo trash
+	{ on = [
+		"R",
+		"d",
+	], run = "plugin sudo -- remove", desc = "sudo trash" },
+
+	# sudo delete
+	{ on = [
+		"R",
+		"D",
+	], run = "plugin sudo -- remove --permanently", desc = "sudo delete" },
+	{ on = [
+		"C",
+		"a",
+		"a",
+	], run = "plugin compress", desc = "Archive selected files" },
+
+	{ on = [
+		"C",
+		"a",
+		"p",
+	], run = "plugin compress -p", desc = "Archive selected files (password)" },
+
+	{ on = [
+		"C",
+		"a",
+		"h",
+	], run = "plugin compress -ph", desc = "Archive selected files (password+header)" },
+
+	{ on = [
+		"C",
+		"a",
+		"l",
+	], run = "plugin compress -l", desc = "Archive selected files (compression level)" },
+
+	{ on = [
+		"C",
+		"a",
+		"u",
+	], run = "plugin compress -phl", desc = "Archive selected files (password+header+level)" },
+]

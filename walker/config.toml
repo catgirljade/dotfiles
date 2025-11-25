@@ -1,0 +1,21 @@
+close_when_open = true
+theme = "nord"
+theme_base = ["default"]
+theme_location = ["~/.config/walker/themes/"]
+hotreload_theme = true
+force_keyboard_focus = true
+timeout = 10
+
+
+[placeholders]
+# placeholders for input and empty list, key is the providers name, so f.e. "desktopapplications" or "menus:other"
+"default" = { "input" = " Search", list = "No Results" }
+"desktopapplications" = { input = " Applications", list = "No Results" }
+"clipboard" = { input = " Clipboard", list = "Empty" }
+"files" = { input = " Files", list = "NOTHING!!!" }
+"calc" = { input = "󰍘 Expression", list = "-" }
+"symbols" = { input = "󰞅 Emojis", list = "NOTHING!!!" }
+"runner" = { input = " Command", list = "-" }
+"unicode" = { input = "󰦨 Unicode Characters", list = "-" }
+"provierlist" = { input = "󰍜 Providers", list = "-" }
+"dmenu" = { input = "󰍜 Menu", list = "-" }

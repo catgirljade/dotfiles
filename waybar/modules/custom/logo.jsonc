@@ -1,0 +1,20 @@
+{
+	"group/logo": {
+		"orientation": "horizontal",
+		"modules": [
+			"custom/logo",
+			"custom/user"
+		],
+		"drawer": {}
+	},
+	"custom/logo": {
+		"format": "",
+		"min-length": 4,
+		"max-length": 4
+	},
+	"custom/user": {
+		"exec": "id --user --name",
+		"format": "{}",
+		"tooltip": false
+	}
+}

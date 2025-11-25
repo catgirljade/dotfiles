@@ -1,0 +1,6 @@
+[filesystem "Red Hat, Inc.|21.0.8|/dev/nvme0n1p4"]
+	timestampResolution = 3619 nanoseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Microsoft|21.0.7|/dev/nvme0n1p4"]
+	timestampResolution = 2425 nanoseconds
+	minRacyThreshold = 0 nanoseconds

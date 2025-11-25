@@ -1,0 +1,33 @@
+{
+	"dwl/window#layout": {
+		"format": "| {layout} |",
+		"menu": "on-click",
+		"menu-actions": {
+			"centerTiling": "mmsg -l CT",
+			"deck": "mmsg -l K",
+			"monocle": "mmsg -l M",
+			"rightTiling": "mmsg -l RT",
+			"scrolling": "mmsg -l S",
+			"tiling": "mmsg -l T",
+			"verticalDeck": "mmsg -l VK",
+			"verticalGrid": "mmsg -l VG",
+			"verticalScrolling": "mmsg -l VS",
+			"verticalTiling": "mmsg -l VT",
+			"vrid": "mmsg -l G"
+		},
+		"menu-file": "/home/jade/.config/waybar/modules/dwl/mango_menu.xml",
+		"rewrite": {
+			"CT": "Center Tiling",
+			"G": "Grid",
+			"K": "Deck",
+			"M": "Monocle",
+			"RT": "Right Tiling",
+			"S": "Scrolling",
+			"T": "Tiling",
+			"VG": "Vertical Grid",
+			"VK": "Vertical Deck",
+			"VS": "Vertical Scrolling",
+			"VT": "Vertical Tiling"
+		}
+	}
+}
